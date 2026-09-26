@@ -30,7 +30,7 @@
   rooms, one-way drops), at least one optional side path with treasure, a
   save point before the boss.
 - **Interiors**: doors (`door` tiles) become warps to small interior maps.
-- **Map preview tool** (TOOL-1) so agents can render a map to an image and
+- **Map preview tool** ([#38](https://github.com/abarth/zylia/issues/38)) so agents can render a map to an image and
   check their work.
 
 ## Open questions

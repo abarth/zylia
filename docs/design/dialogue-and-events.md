@@ -18,7 +18,7 @@
 - **Choices**: a line can end in `choices: [{ "text": "Yes", "goto": "id" }]`.
 - **Conditions beyond single flags**: `ifFlag`, `unlessFlag`, `ifItem`,
   `ifPartyMember` on variants.
-- **Events (EVT-1)**: cutscenes as a list of steps in data:
+- **Events** ([#31](https://github.com/abarth/zylia/issues/31)): cutscenes as a list of steps in data:
   `say`, `move` (an actor along a path), `face`, `wait`, `setFlag`,
   `giveItem`, `takeItem`, `battle`, `warp`, `joinParty`, `leaveParty`,
   `fade`, `playMusic`. Events trigger when entering a map, stepping on a

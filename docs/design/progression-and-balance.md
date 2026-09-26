@@ -36,7 +36,7 @@ Designers use these to set enemy stats and boss difficulty.
 
 ## Tooling
 
-- **Balance simulator (PRG-2)**: a Node script that runs the real battle
+- **Balance simulator** ([#9](https://github.com/abarth/zylia/issues/9)): a Node script that runs the real battle
   logic headlessly for a party (level, gear) against an encounter group many
   times and reports win rate, average turns, HP and MP spent. Agents creating
   enemies or areas run it and record results in the area's content notes.

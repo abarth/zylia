@@ -58,11 +58,10 @@ In the browser console, `zylia` is the running `Game` object
 
 ```
 content/        Game content as JSON (maps, dialogue, items, enemies, ...)
-docs/           Design documents, story bible and the backlog
+docs/           Design documents and the story framework
   overview.md   Start here: vision, pillars, scope, milestones
-  backlog.md    The tracked list of work
   design/       Systems design (combat, stats, magic, economy, saves, ...)
-  story/        World, characters, story arc, writing style
+  story/        How the story gets written: principles, process, templates
   content/      Content schema and the authoring workflow for agents
 src/
   engine/       Canvas, scaling, input, fixed-timestep loop, drawing
@@ -71,4 +70,5 @@ src/
 tests/          Vitest tests
 ```
 
+Work is tracked in [GitHub issues](https://github.com/abarth/zylia/issues).
 Contributors (human or agent) should read [AGENTS.md](AGENTS.md).

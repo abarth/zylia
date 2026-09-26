@@ -15,7 +15,7 @@ story costs (ship passage, bribes).
   without grinding. Optional grinding buys everything.
 - Consumables stay cheap relative to income so players use them.
 - Sell price is half the buy price. Key items can't be sold.
-- Rough price bands (to be tuned by PRG-2 and playtests):
+- Rough price bands (to be tuned by the balance simulator, [#9](https://github.com/abarth/zylia/issues/9), and playtests):
 
 | Chapter | Typical battle gold | Weapon price | Potion-tier price |
 | --- | --- | --- | --- |

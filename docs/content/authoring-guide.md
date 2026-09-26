@@ -5,14 +5,18 @@ from high-level story documents down to JSON, and each layer is reviewed
 against the one above it.
 
 ```
-story/world.md, story/characters.md, story/story-arc.md   (what happens and why)
+story/canon/premise.md, world.md, characters/, arc.md     (what happens and why)
         |
-story/chapters/<chapter>.md                               (beat sheet: scenes, places, who's there)
+story/canon/chapters/ch<N>-<slug>.md                      (beats, places, who's there, content notes)
         |
-content notes in the chapter doc                          (maps to build, NPC list, encounters, treasure, target level)
+story/canon/chapters/ch<N>/scenes/*.md                    (scene scripts)
         |
 content/*.json                                            (the data the game loads)
 ```
+
+Only approved canon may be turned into content. See
+[../story/process.md](../story/process.md) for how story documents are
+written and approved.
 
 ## Adding a map
 
@@ -31,8 +35,8 @@ content/*.json                                            (the data the game loa
 
 ## Adding an NPC and dialogue
 
-1. Check the story docs: who is this person, what do they know at this point
-   in the story? Named NPCs get an entry in the chapter doc.
+1. Check the canon story docs: who is this person, what do they know at
+   this point in the story? Named NPCs must appear in the chapter doc.
 2. Write the dialogue in `content/dialogue/<map-or-topic>.json`, following
    [../story/style-guide.md](../story/style-guide.md).
 3. Give NPCs something useful or characterful to say: a hint, a rumor, a
@@ -45,14 +49,13 @@ content/*.json                                            (the data the game loa
 1. Define the enemy in `enemies.json` at the level of the area it appears in.
 2. Group enemies in `encounter-groups.json` (1-6 enemies).
 3. Reference groups from map encounter tables.
-4. When the balance simulator exists (PRG-2), run it for each new group and
+4. When the balance simulator exists ([#9](https://github.com/abarth/zylia/issues/9)), run it for each new group and
    record the results in the chapter doc.
 
 ## Review checklist
 
 - [ ] `npm run check` passes.
-- [ ] Names, places and facts match the story docs; new facts were added to
-      them.
+- [ ] Names, places and facts match canon; nothing comes from drafts.
 - [ ] Dialogue fits the character's voice (see characters.md).
 - [ ] Treasure and gold amounts fit [../design/economy.md](../design/economy.md).
 - [ ] Encounter difficulty fits the area's target level.

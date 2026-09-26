@@ -5,8 +5,12 @@ Guidance for agents (and humans) contributing to this repository.
 ## Before you start
 
 1. Read [docs/overview.md](docs/overview.md) for the vision and scope.
-2. Find the task in [docs/backlog.md](docs/backlog.md). If it isn't there,
-   add it. Mark it in progress while you work and done when it lands.
+2. Find the task in [GitHub issues](https://github.com/abarth/zylia/issues).
+   If it isn't there, open one with a milestone label (`M1: core loop`, ...),
+   area labels, and a "Done when" list. Reference the issue in your pull
+   request (`Fixes #N`) so it closes when the work lands. Issues labeled
+   `needs decision` wait on the project owner; don't implement them until
+   the decision is recorded.
 3. Read the design doc for the system you're touching (docs/design/) or the
    story docs for content you're writing (docs/story/).
 
@@ -18,9 +22,10 @@ Guidance for agents (and humans) contributing to this repository.
   and enforced by `src/content/validate.ts`; keep all three in sync.
 - **Design before code** for new systems. Update or write the design doc in
   `docs/design/` first, including open questions, then implement.
-- **Story before dialogue.** Dialogue must agree with `docs/story/`. If a
-  scene needs a new fact about the world or a character, add it to the story
-  docs in the same change.
+- **Story before dialogue.** Story is written through the staged process in
+  [docs/story/process.md](docs/story/process.md). Dialogue and content may
+  only use facts from `docs/story/canon/`; drafts are not canon. If a scene
+  needs a new fact, that's a canon change and needs the owner's approval.
 - **Game pixels only.** All game code works at the fixed 256x224 internal
   resolution (`src/engine/constants.ts`). Scaling to the window is handled
   once in `src/engine/display.ts`.

@@ -18,7 +18,7 @@ long time.
 
 1. **Characters first.** Like FF4 and FF6, the party is the story. Every
    playable character has a personal arc, a distinct combat role and a
-   reason to be here. See [story/characters.md](story/characters.md).
+   reason to be here. See [story/principles.md](story/principles.md).
 2. **A world worth walking.** Towns, dungeons and the spaces between them
    should reward exploration with treasure, lore and side stories.
 3. **Readable, snappy battles.** Active-time battles that are easy to learn
@@ -60,22 +60,29 @@ Out of scope for now: multiplayer, mobile/touch controls, gamepad support
 
 Details: [design/architecture.md](design/architecture.md).
 
-## Milestones
+## Milestones and work tracking
 
-The detailed, tracked task list is in [backlog.md](backlog.md).
+Work is tracked in [GitHub issues](https://github.com/abarth/zylia/issues).
+Each issue has a milestone label and one or more area labels (`battle`,
+`field`, `items`, `magic`, `story`, `tooling`, ...). Issues labeled
+`needs decision` wait on the project owner.
 
 | Milestone | Goal | Status |
 | --- | --- | --- |
-| **M0: Foundations** | Project docs, engine skeleton, walkable placeholder world, content pipeline | Done in this first iteration |
-| **M1: Core loop** | Real battles (ATB, attack/defend/item/run), XP and levels, item use, saving and loading | Next |
-| **M2: Party and magic** | Magic system, abilities, equipment, 4+ designed characters, status effects | |
-| **M3: World and story slice** | First chapter of the story playable end to end: 2 towns, 2 dungeons, a boss, cutscenes, shops | |
-| **M4: Art and audio** | Tile and sprite art pipeline, music and sound effects | |
+| **M0: Foundations** | Project docs, engine skeleton, walkable placeholder world, content pipeline | Done in the first pull request |
+| [**M1: Core loop**](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22M1%3A%20core%20loop%22) | Real battles (ATB, attack/defend/item/run), XP and levels, item use, saving and loading | Next |
+| [**M2: Party and magic**](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22M2%3A%20party%20and%20magic%22) | Magic system, unique commands, equipment, status effects, party roster | |
+| [**M3: First chapter**](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22M3%3A%20first%20chapter%22) | First chapter of the story playable end to end: events, shops, inns, interiors, dungeon mechanics | |
+| [**M4: Art and audio**](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22M4%3A%20art%20and%20audio%22) | Art direction, tile and sprite art, music and sound effects | |
 | **M5: Full game** | Remaining chapters, balance passes, polish | |
+
+The [story](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22story%22) runs as its own track through the stages in
+[story/process.md](story/process.md), alongside the code milestones. It
+starts when the owner says so.
 
 ## Documentation map
 
-- [backlog.md](backlog.md): what to work on.
+- [GitHub issues](https://github.com/abarth/zylia/issues): what to work on.
 - `design/`: how systems work.
   - [architecture.md](design/architecture.md)
   - [world-and-exploration.md](design/world-and-exploration.md)
@@ -87,9 +94,12 @@ The detailed, tracked task list is in [backlog.md](backlog.md).
   - [progression-and-balance.md](design/progression-and-balance.md)
   - [dialogue-and-events.md](design/dialogue-and-events.md)
   - [save-system.md](design/save-system.md)
-- `story/`: the story bible.
-  - [README.md](story/README.md): how story work is organized.
-  - [world.md](story/world.md), [characters.md](story/characters.md),
-    [story-arc.md](story/story-arc.md), [style-guide.md](story/style-guide.md)
+- `story/`: the framework for writing the story (no story yet).
+  - [README.md](story/README.md): layout and rules.
+  - [principles.md](story/principles.md): what makes the story compelling.
+  - [process.md](story/process.md): stages from premise to dialogue.
+  - [review.md](story/review.md): the critique rubric.
+  - [style-guide.md](story/style-guide.md), [templates/](story/templates/),
+    [drafts/](story/drafts/README.md), [canon/](story/canon/README.md)
 - `content/`: how content is produced.
   - [schema.md](content/schema.md), [authoring-guide.md](content/authoring-guide.md)

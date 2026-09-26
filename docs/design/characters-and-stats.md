@@ -39,7 +39,9 @@ the Status menu.
 
 ## Character design template
 
-Story-side character design lives in [../story/characters.md](../story/characters.md).
+Story-side character design uses the character template in
+[../story/templates/character.md](../story/templates/character.md) and the
+cast stage of [../story/process.md](../story/process.md).
 Each playable character additionally needs, in `content/characters.json`:
 job, base stats at join level, growth ranges, equipment types, unique
 command, starting equipment and abilities.

@@ -1,6 +1,6 @@
 # Save System
 
-**Status: Proposed (SAV-1..3).**
+**Status: Proposed** ([#12](https://github.com/abarth/zylia/issues/12), [#13](https://github.com/abarth/zylia/issues/13), [#14](https://github.com/abarth/zylia/issues/14)).
 
 ## Format
 

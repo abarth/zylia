@@ -65,5 +65,5 @@ check that everything placed on a map is reachable.
 
 - When real battles arrive, battle logic should be a pure model
   (`src/battle/`) with the scene only presenting it, so the balance
-  simulator (PRG-2) can run battles headlessly.
+  simulator ([#9](https://github.com/abarth/zylia/issues/9)) can run battles headlessly.
 - Asset pipeline for M4 (sprite sheets vs. individual PNGs, atlas building).

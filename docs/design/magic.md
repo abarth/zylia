@@ -1,6 +1,6 @@
 # Magic
 
-**Status: Open question (MAG-1).** This document lays out options; pick one
+**Status: Open question ([#18](https://github.com/abarth/zylia/issues/18)).** This document lays out options; pick one
 before implementing spells.
 
 ## Spell families (common to every option)
