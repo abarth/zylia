@@ -1,4 +1,4 @@
-export type Action = "up" | "down" | "left" | "right" | "confirm" | "cancel" | "menu";
+export type Action = "up" | "down" | "left" | "right" | "confirm" | "cancel" | "menu" | "prevMember" | "nextMember";
 
 const KEY_BINDINGS: Record<string, Action> = {
   ArrowUp: "up",
@@ -16,6 +16,10 @@ const KEY_BINDINGS: Record<string, Action> = {
   Backspace: "cancel",
   Escape: "menu",
   KeyC: "menu",
+  KeyQ: "prevMember",
+  PageUp: "prevMember",
+  KeyE: "nextMember",
+  PageDown: "nextMember",
 };
 
 /**

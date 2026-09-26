@@ -32,8 +32,9 @@ the Status menu.
   which keeps balance predictable.
 - **Level cap** 99. Target level at the end of the main story: 50-55.
 - **Jobs are fixed per character** (FF4 style): a character's job decides
-  equipment, growth and their unique command. Magic learning may add
-  flexibility (see [magic.md](magic.md)).
+  equipment, growth and their unique command. Magic adds flexibility on
+  top: each character has a magic aptitude, may have an affinity with one
+  magic family, and may own an exclusive family (see [magic.md](magic.md)).
 - A roster of 8-10 playable characters; an active party of 4 (5 in FF4 was a
   lot of UI to fit at 256x224).
 

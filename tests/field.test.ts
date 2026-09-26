@@ -52,6 +52,30 @@ describe("field movement", () => {
   });
 });
 
+describe("field leader", () => {
+  it("starts as the first party member and cycles both ways", () => {
+    const { game, state } = setup("overworld", 12, 13);
+    const ids = state.party.map((m) => m.id);
+    expect(state.fieldLeader).toBe(ids[0]);
+    game.input.press("nextMember");
+    game.update();
+    expect(state.fieldLeader).toBe(ids[1 % ids.length]);
+    game.input.press("prevMember");
+    game.update();
+    game.input.press("prevMember");
+    game.update();
+    expect(state.fieldLeader).toBe(ids[ids.length - 1]);
+  });
+
+  it("does not change party order", () => {
+    const { game, state } = setup("overworld", 12, 13);
+    const before = state.party.map((m) => m.id);
+    game.input.press("nextMember");
+    game.update();
+    expect(state.party.map((m) => m.id)).toEqual(before);
+  });
+});
+
 describe("computeScale", () => {
   it("prefers whole-number scales", () => {
     expect(computeScale(1920, 1080)).toBe(4);

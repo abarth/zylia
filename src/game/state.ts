@@ -24,6 +24,11 @@ export type GameState = {
   y: number;
   facing: Direction;
   party: PartyMember[];
+  /**
+   * Id of the party member drawn on the field. Purely cosmetic: it never
+   * affects gameplay or story (decided in #17).
+   */
+  fieldLeader: string;
   gold: number;
   /** Item id -> quantity, in the order items were first acquired. */
   inventory: Record<string, number>;
@@ -55,6 +60,7 @@ export function newGame(content: Content): GameState {
         stats: { ...def.stats },
       };
     }),
+    fieldLeader: game.party[0],
     gold: game.gold,
     inventory,
     flags: {},
@@ -76,4 +82,17 @@ export function setFlag(state: GameState, flag: string): void {
 
 export function chestFlag(map: string, chestId: string): string {
   return `chest:${map}:${chestId}`;
+}
+
+/** The party member shown walking on the field; falls back to the first member. */
+export function fieldLeader(state: GameState): PartyMember {
+  return state.party.find((m) => m.id === state.fieldLeader) ?? state.party[0];
+}
+
+/** Rotates which party member is shown on the field by `delta` places. */
+export function cycleFieldLeader(state: GameState, delta: number): void {
+  const n = state.party.length;
+  if (n === 0) return;
+  const current = Math.max(0, state.party.indexOf(fieldLeader(state)));
+  state.fieldLeader = state.party[(((current + delta) % n) + n) % n].id;
 }
