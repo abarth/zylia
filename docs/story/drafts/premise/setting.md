@@ -36,441 +36,221 @@ Round 1 (2026-09-26):
   cities, each with its own culture, major exports and imports, and things
   of cultural significance.
 
-Round 2 (2026-09-26), responding to Claude's round 1:
+Round 2 (2026-09-26):
 
-- Keep the idea from History A that **something suppresses the magic in the
-  world, and that suppression is the source of the imperial powers'
-  strength**.
-- Not a flame: it isn't connected enough. The setting should be
-  **economically driven**, so that there can be many factions, each acting
-  in its own self-interest.
-- The suppressor is a **mystical resource** that doesn't exist in the real
-  world, which the powerful have extracted from the earth for centuries.
-  **The veins are running dry.** (This carries over the economics of History
-  C, with a fantasy resource in place of silver.)
-- The resource also **powers the soldiers' weapons and armor**. As it
-  dwindles, the soldiers can't hold their place in society, and the imperial
-  powers can't impose their will on the people.
-- The merchant class harnesses a **new source of power: early-industrial,
-  steam-age mechanization**. It rises through the economic and social
-  upheaval that causes, as the middle class did in the Industrial
-  Revolution. Mechanization is the natural course of events, and becomes the
-  way of life.
-- A **priesthood** with a different relationship to the resource: instead
-  of exploiting it to impose someone's will on someone else, they want to
-  preserve it or use it for a spiritual purpose.
-- As the resource is exhausted, **magic slowly returns**, because nothing
-  suppresses it any more.
+- Something that suppresses magic is the source of the imperial powers'
+  strength. Not a flame: the setting should be **economically driven**, so
+  that there can be many factions, each acting in its own self-interest.
+- A mystical resource mined for centuries, whose veins are running dry, that
+  powers the soldiers' arms. The merchant class rises on **steam-age
+  mechanization**, as the middle class did in the Industrial Revolution. A
+  priesthood with a different relationship to the resource.
 - **Theme**: the power of the individual to overcome external powers,
   whether domination by force (the imperial powers) or economic domination
   and mechanical inhumanity (the merchant class). The protagonists are
   everyday people who want their individual freedom, expressed through their
   magic, their relationships with each other, and their humanity.
 
+Round 3 (2026-09-26), responding to Claude's round 2:
+
+- The resemblance to Final Fantasy VI comes from the **core idea**: magic
+  suppressed by an imperial power, and relics that teach magic. Look for
+  another core idea.
+- The project should move toward an **interactive narrative**, like an
+  interactive graphic novel in the style of a retro JRPG, underplaying
+  combat in favor of story. The player makes key choices for the main
+  characters that have meaningful effects on the world and on that
+  character's outcome. (For the project as a whole this is
+  [#45](https://github.com/abarth/zylia/issues/45).) That opens up the
+  setting and themes, since the story no longer has to serve Final
+  Fantasy-style mechanics.
+- Keep: a world going through a **major social and economic transition**.
+  The power structures of the past have **lost their foundations**. An
+  **industrial revolution** is raising a new elite that wants to succeed the
+  imperial powers. The protagonists struggle for **self-determination and
+  humanity** in the turmoil.
+
 ### Rejected so far
 
-- The **Lamps** (round 1, History A) and the bells variant: a flame isn't
-  connected enough to the economy.
-- **Vitrey**, the lamp-glass town: it only made sense with the Lamps.
+- The **Lamps** (round 1) and the bells variant: a flame isn't connected
+  enough to the economy.
+- **Hush** (round 2), and with it the whole core of magic suppressed by the
+  empire and returning, with relics that teach it: too close to Final
+  Fantasy VI.
 
-History B (heirs of a broken empire) wasn't taken up either way.
+## Round 3 (Claude): what did the old order stand on?
 
-## Round 2 (Claude): the resource
+**Proposed.** The owner's brief is now that the old power structures have
+lost their foundations. So the core idea is the answer to two questions:
+what was the foundation, and how was it lost? Three candidates follow, each
+genuinely different. All three share one thematic spine.
 
-**Proposed** unless marked otherwise.
+### The thematic spine
 
-### Hush, the metal that drinks magic
+Historians describe the real industrial revolution as a movement "from
+status to contract" (Henry Maine's phrase): in the old world you are what
+you were born; in the new one you are what you agree to, which in practice
+means what you are paid. The protagonists want a third thing.
 
-**Hush** is a pale, heavy metal found in deep veins. It drinks magic: a
-spell that touches it goes quiet, and the magic soaks into the metal and
-stays there. ("Hush" is what soldiers and miners call it; the crown and the
-priests have their own names for it, see [Names](#names).)
+- **The old order**: you are what you were born. (Status.)
+- **The new elite**: you are what you are paid. (Contract.)
+- **The protagonists**: you are who you choose to be, and who you choose to
+  stand with. (Self-determination, and relationships freely chosen.)
 
-Six centuries ago the founders of the empire learned to forge it, and it
-made them:
+This spine is also the game's form. In a choice-driven game about people
+deciding who to become, every key choice the player makes is the theme in
+action. The round 2 question, "Who do you belong to?", still fits.
 
-- **Armor.** Spells die against hush. A soldier in hush armor can walk
-  through a sorcerer's fire, which is how a kingdom of farmers conquered a
-  continent ruled by sorcerer-lords.
-- **Arms.** Once a hush weapon has drunk its fill, a trained soldier can
-  strike it to release that magic as raw force: a thunderclap, a burst of
-  flame, a blow no one could strike unaided. Releasing it burns the metal
-  away. The soldiers fight with magic their weapons drank from the land
-  around them, and every weapon is slowly used up.
-- **Coin.** The empire struck its money from hush. A coin drinks only a
-  little, but there were millions of them, in every purse and strongbox, for
-  six hundred years. Between the garrisons and the money, hush drank the
-  world quiet, and magic became a nursery tale. The beasts that feed on
-  magic starved and dwindled with it.
+### Option 1: The Unmarked (Claude's pick)
 
-**Why it's running out.** Hush that has drunk its fill (**sated** hush)
-stops drinking. Only fresh hush from the ground keeps the world quiet, and
-the veins are thinning: the mines go deeper every year and bring up less.
-So:
+For six centuries, every child in the empire was born with a **mark** on the
+palm: the sign of their station. A sword for soldiers, a sheaf for farmers,
+a hammer for smiths, a scale for merchants, a crown for the imperial line.
+Nobody chose; the mark decided. The empire was built on it: law, guilds,
+marriage, inheritance and the army all read the mark. The priesthood taught
+that the marks were the god's own hand.
 
-- The army can't replace its spent arms. The crown calls in old coin to
-  melt down for the armories, so there is less money, and what's left is
-  debased with common metal. Trust in the imperial coin is failing, and the
-  merchant banks' paper notes are taking its place.
-- With less fresh hush in the world, magic comes back, slowly and unevenly.
-  Old charms work again, and some children are born with gifts. The beasts
-  that feed on magic come back too, which is why the roads are dangerous
-  again (and why the world map has encounters).
-- The crown can't pay its soldiers or its debts, and it can't enforce its
-  will where hush-armored soldiers no longer go.
+Nineteen years ago, children stopped being born with marks. Every child since
+has a blank palm, and nobody knows why.
 
-Why this works, I think:
+Now the first **unmarked** generation is coming of age, and the protagonists
+are part of it: the first people in six hundred years who don't know what
+they are for.
 
-- One material ties all three of the owner's trends to one economy. It is
-  the soldiers' power, the crown's money and the reason magic sleeps, so
-  when it runs out, all three change together.
-- It makes "money drank the magic" literally true, which is the heart of
-  the owner's theme: both the imperial and the merchant order are built on
-  things that make people ordinary.
-- It gives every faction a concrete, self-interested stake in the last of
-  it (see [Factions](#factions)).
+- **Why everything is coming apart.** The old order can't reproduce itself.
+  No one is born a soldier, a smith or a priest any more, and the guilds and
+  laws have no place for a blank palm. The unmarked pour into the cities
+  looking for any work at all.
+- **The new elite.** Merchants were the lowest honorable station under the
+  marks: they had money but no standing. Their mills and engines run on
+  unmarked hands, hired by the hour with no guild to protect them. The
+  scale-marked families now own more than the crown, and they want its
+  place.
+- **The soldiers.** The sword-marked are the last of their kind. The army
+  must recruit the unmarked for pay, or shrink to nothing. The old soldiers
+  were born to it; their unmarked children don't have to be soldiers at all,
+  and many don't want to be.
+- **The crown.** The heir to the throne was born nineteen years ago with a
+  blank palm, and by law she can't rule. Half the court wants to pass the
+  crown to a marked cousin; the other half says the law died with the marks.
+  The heir could be a protagonist, or the figure everyone fights over.
+- **The priesthood.** If the marks were the god's hand, the god has let go.
+  The priesthood splits: some say the god is testing the empire, some say the
+  engines drove it away, and some quietly stop believing.
+- **The mystery: why did the marks stop?** Every faction has an answer that
+  serves its interests. The old guard blames the engines: the first great
+  engine was fired the year the marks stopped, which is either the cause or a
+  coincidence. The merchants say the marks were never divine, only something
+  in nature that has run its course. The priesthood says the god is judging
+  the empire. The true answer is for the arc stage, and when it lands it
+  should recontextualize the whole world.
+- **Talent or telling?** Did the marks give people the gift for their
+  station, or did people grow into what they were told they were? The
+  unmarked are the experiment. A farmer's child who turns out to be a
+  brilliant engineer is the world finding out it was never what it was told.
 
-### Where hush comes from
+Why it's the strongest, I think:
 
-**Open question**, for a later stage; each answer gives a different secret.
+- It makes the theme literal. Self-determination isn't a slogan here, it is
+  the protagonists' condition: nobody has told them who they are.
+- It fits the new form of the game. The player's choices are, in effect, the
+  protagonist's mark. Choosing who to become is the gameplay.
+- It has a clear "why now": the unmarked are coming of age this year.
+- The industrial revolution is caused by the loss of the old foundation, not
+  just happening alongside it.
+- Its central mystery comes with rival explanations, each held out of
+  self-interest, which is exactly the owner's "factions acting in their own
+  interest".
+- It needs no magic system. The marks are the one supernatural fact, which
+  frees the setting from Final Fantasy mechanics. Magic can come back in some
+  other form later if the owner wants it.
 
-- **From the earth.** It formed over ages, drinking magic that seeps up
-  from somewhere deep below. What's down there?
-- **From the sky.** It fell once, as a rain of stars, and there will never
-  be more.
-- **From bones.** It is what's left of vast beings that died long ago, and
-  the priests believe they were gods.
+Risks:
 
-### The engines
+- Caste by birth and choosing your faction are young-adult staples
+  (Divergent, Red Rising). The difference: nobody here is sorted or picks a
+  faction. The sorting has simply stopped, and there is no system to join.
+- A generation that breaks the pattern echoes Children of Men. The
+  difference is that ours is a liberation and a catastrophe at once.
+- The answer to the mystery must be worth the wait. It needs a strong
+  candidate by the arc stage.
 
-The merchants' new power is the **engine**: fire, water and steam. Its fuel
-is **blackspoil**, the black rock that hush miners hauled out and heaped by
-the mine mouths as waste for centuries. Someone in Tallis found that it
-burns hotter than wood and longer than charcoal, and the merchant houses
-bought up the spoil heaps for almost nothing. The old order's waste is the
-new order's fortune.
+### Option 2: The last of the great beasts
 
-- Engines first pumped water out of the deepening hush mines, so the
-  crown's last hush now depends on merchant machines.
-- Then came mills, looms and threshers; next, steamships and rails; and
-  perhaps later the airship that opens the whole world, which fits the
-  FF-style travel progression.
-- Engines don't care about magic either way. Their threat is different:
-  they make people interchangeable. A mill hand is paid by the hour and
-  replaced by the next one. A weaver with twenty years of skill is undersold
-  by a loom any child can mind. That is the owner's "mechanical inhumanity".
-- Paper money from the merchant banks, backed by goods and engines rather
-  than hush, is replacing the failing coin.
+Great beasts built the empire: long-lived, intelligent, and not dragons.
+Each noble house is bonded, generation after generation, to its beasts. They
+carried the house's armies, its trade and its messages, and no one outside
+the bloodline could command them. A house's rank was its beasts.
 
-### The priesthood: two versions
+The beasts are dying out: fewer calves every generation, and nobody knows
+why. Meanwhile engines do their work more cheaply. Rails replace the beast
+caravans, ironclads replace the war-beasts, and the telegraph wire replaces
+the message-beasts. Poor houses rent their beasts to the mills. The image at
+the heart of it is an ancient, intelligent creature in harness, turning a
+factory wheel.
 
-Both have a different relationship to hush than the crown's.
+- **Soldiers**: the beast-riders are the army's pride, and soon they will
+  have nothing to ride.
+- **The new elite**: the engine owners buy up the houses' land and titles.
+- **Theme**: the bond (by birth, loving but unchosen) against the contract
+  (chosen, but cold). The beasts mirror the protagonists: what is a living
+  thing worth in a world that prices everything by its output?
+- **Strengths**: the old order's foundation is a living thing, so losing it
+  is a tragedy the player can feel. Strong images for pixel art.
+- **Risks**: dragon-rider stories (Pern, Temeraire). The beasts mustn't be
+  dragons, mustn't be weapons first, and mustn't be telepathic soulmates.
 
-- **The Keepers** (Claude's pick). They believe the magic hush drinks isn't
-  destroyed but held in trust: the world's breath, borrowed. They never
-  burn hush. For six centuries every temple has kept a reliquary of sated
-  hush, and their great house sits on the largest hoard left in the world:
-  six hundred years of the world's magic, unspent. Their doctrine says that
-  one day it must be given back, by them, in a rite. Now that the mines are
-  failing, their hoard is the most valuable thing in the world. The crown
-  wants to melt it for arms, the merchant banks want it to back their
-  notes, and the newly gifted want what's inside it. What the Keepers want
-  is what every faction wants: to be the ones who decide.
-- **The Still.** A faith of silence. They hold that magic was the madness
-  of the old world and that hush brought peace to the soul. Their monks
-  meditate holding hush, to quiet the self. They want hush preserved, never
-  burned, and the world kept quiet forever. To them the returning magic is
-  a plague, and the crown burning hush for war is sacrilege.
+### Option 3: The shield without a war
 
-Why the Keepers: they are an economic player holding the last great
-reserve, not bystanders. They want magic back, which makes them tempting
-allies for the protagonists, but on their own terms and through their own
-rite, which is its own kind of external power. And their hoard sets up a
-big question for later: what happens if six centuries of magic is released
-at once?
+For three centuries the empire existed to hold one border against one enemy
+across the sea. The warrior houses were the **Shield**, and their privileges
+were the price of survival. Twenty years ago the enemy simply stopped: no
+more fleets, no more raids, and no word from across the water.
 
-### Magic comes back to the poor first
+Without a war, the Shield has no purpose, and the war taxes that fed it are
+resented. The merchants who built the cannon foundries and ironclads now
+build rails and mills. The emperor, whose whole legitimacy was leading the
+war, is a general without one.
 
-Hush is expensive, so it sits where the money and the soldiers are. Magic
-returns first where there is none: poor villages that never saw much coin,
-played-out mining towns, provinces the crown can't afford to garrison. The
-rich, surrounded by hush coin, hush jewelry and hush-armored guards, feel
-nothing. So the protagonists, the everyday people the owner described, come
-from exactly the places where the new magic is waking, and the powerful are
-the last to understand what is happening.
+- **Soldiers**: the owner's first idea at its sharpest. Some warrior houses
+  plot a coup, some want a new war, some sell their swords.
+- **The new elite**: war profiteers turned industrialists.
+- **Mystery**: why did the enemy stop, and what is over there now?
+- **Strengths**: the most grounded, with a real historical shape: Meiji
+  Japan, where the samurai lost their place as industry and the merchant
+  class rose.
+- **Risks**: the least fantastical; it would need specific world details of
+  its own to feel like ours.
 
-Imperial law says a person whose gift wakes must wear a **hush band**, which
-drinks their magic as it comes. The merchant houses have a gentler-sounding
-answer: long contracts for gifted workers.
+### Also considered: the fading dead
 
-### Relics
+The dead linger as long as they are remembered by name. The old houses rule
+with the counsel of centuries of remembered ancestors, while the industrial
+city makes everyone anonymous, and the forgotten dead fade. It's a lovely
+idea, but harder to put across in a game than the three above. It could
+still be one element of whichever core idea wins.
 
-To connect with the magic decision
-([#18](https://github.com/abarth/zylia/issues/18)): a **relic** is an old
-piece of hush that drank from one great mage, long ago, and still holds the
-shape of their spells. Being sated, it drinks nothing more, and a person who
-carries it can learn what it holds. So relics are things the crown
-confiscates, the merchants sell, the Keepers enshrine and the protagonists
-need.
+## What carries over from rounds 1 and 2
 
-### Theme
+The places and customs from the earlier rounds mostly survive a change of
+core idea. Under the Unmarked, for example:
 
-The owner's theme is the individual against external power, whether force
-or money and machines. A thematic question that could frame it: **"Who do
-you belong to?"**
-
-- The crown: you belong to the crown. You are a subject.
-- The merchant houses: you belong to whoever pays you. You are a pair of
-  hands.
-- The Keepers: you belong to the faith, which holds your magic in trust.
-- The protagonists: to yourself, and to the people you choose.
-
-Magic fits this. Hush is the same in every hand, and a machine does the
-same work whoever runs it, but magic grows out of who a person is (the
-affinity, aptitude and exclusive families of #18), and nobody can buy
-someone else's gift.
-
-**Risk: preaching.** A story that simply says machines are bad will preach,
-and the principles ask the story to argue. The engine side needs a real
-case: engines pump out the flooded shafts that used to drown miners, end
-famines, and free people from lifetimes of service to the hush lords. The
-best antagonists will believe they are setting people free.
-
-### Resemblances, and what's ours
-
-- **Final Fantasy VI**: an empire whose soldiers fight with magic-powered
-  armor, and magic returning after an age without it. Magitek drains magic
-  from living beings; hush drinks it from the world, and runs out.
-- **Final Fantasy VII**: a mystical energy extracted from the earth by a
-  company, opposed by a spiritual group. Here the extraction is the old
-  imperial order, and the merchants' new power is ordinary steam.
-- **"Sacred land over the resource"** (as in Avatar): the Keepers' hoard
-  shouldn't turn into a holy-ground-against-miners story.
-- **What's most ours**: the coin. Money itself drank the world's magic; the
-  crown melts down its own money to arm its soldiers; and magic comes back
-  to the poor first.
-
-## Factions
-
-**Proposed.** Each acts in its own interest.
-
-| Faction | Wants | Fears |
+| Place | Keep | Under the Unmarked |
 | --- | --- | --- |
-| The crown and court | To rule as it always has | The day the hush and the money run out together |
-| The soldier caste | Its place, its pay, its honor | Becoming hired guards for merchants, or nothing |
-| The hush lords (old mining nobility) | To dig deeper and keep their titles | Engines they don't own; flooded shafts; miners with gifts |
-| The merchant houses | The crown's debts, cheap spoil, cheap labor, the future | A strong crown; each other |
-| Mill hands and displaced craftsmen | Work and bread | The machines, the houses, the next price cut |
-| The Keepers | To stay the ones who decide what happens to magic | Soldiers at the reliquary door |
-| The gifted | To be left alone, or to become something | The hush band, the twenty-year contract, the rite |
+| Vessary, the capital | The rings of rank; the Long Noon festival | Rings by mark; the unmarked have no ring and crowd outside the walls |
+| Tallis, the merchant city | The Exchange, tally sticks, the bought charter | The scale-marked families' city, and the mills where the unmarked work |
+| Holdfast, the soldiers' home | Children enter the academy at seven; heirloom arms | The sword-marked's town, with no new cadets for nineteen years |
+| Amberlea, the granary | River-shares and river-stones; the Sheaf Procession | Sheaf-marked farmers whose unmarked children leave for the mills |
+| Skarrow, the mines | The hand-language; "asking the mountain" | Mines for the coal the engines burn |
+| Orison, the temple town | A town of pilgrims | The temple of the god whose hand the marks were |
+| Ashwen, the village apart | A village that went its own way | Where unmarked who refuse both the crown and the mills go to live on their own terms |
 
-## The powers
+The engines, the rising merchant houses, the factions acting in their own
+interest, and the owner's theme all carry over unchanged. The full text of
+rounds 1 and 2 is in commits ddb3965 and f8dcae2.
 
-**Proposed**, reworked for hush.
+## Questions for the owner (round 3)
 
-### The home empire
-
-The oldest hush empire, with the oldest mines, nearly dry. Name options are
-under [Names](#names).
-
-### The Ninefold League
-
-Nine port cities on the southern coast and islands, with no hush of their
-own. Without hush they had to invent: they built the first engines, and
-their banks issued the first paper money. They are the future the empire's
-merchants imitate, and the empire's largest creditor. Their ships bring
-engines to Tallis and carry back hush bought at any price. The League isn't
-fading, it's rising, and it wants the empire weak but not dead: you can't
-collect a debt from a corpse. Naming sounds: clipped and hard (Brekk,
-Tessel, Hollin).
-
-(Round 1 had every power fading. With the engines, the League is the one on
-the rise.)
-
-### Aumar, the temple kingdom
-
-The high valleys beyond the mountains: the Keepers' homeland and seat.
-Aumar's mountains hold hush too, but the Keepers never burned theirs, so
-Aumar is poor in coin and rich in the one thing everyone now wants. Six
-centuries ago the Keepers crowned the first emperor, and in return the
-**Concordat** has kept imperial hands off Aumar's hush ever since. The crown
-is broke, and the Concordat is only paper. Naming sounds: long, open vowels
-(Aumar, Saaru, Oolen).
-
-(With the Still instead of the Keepers, Aumar becomes a monastery kingdom of
-silence, and everything else here holds.)
-
-## Places in the home empire
-
-**Proposed**, reworked for hush. The empire runs along one long river, from
-the mountains (Skarrow's mines, and Holdfast guarding the passes to Aumar)
-down past the capital to the sea at Tallis. Orison sits in the hills
-between. Ashwen lies at the forest edge to the east, where the hush ran out
-first. The trade web is designed so that one change causes a problem
-somewhere else: the capital eats Amberlea's grain, the Mint strikes
-Skarrow's hush, Skarrow's pumps are Tallis engines, and everyone owes
-Tallis.
-
-### Vessary, the capital
-
-- **Known for**: the **Mint**, whose hammers have struck the empire's coin
-  for six centuries, and whose strongrooms are nearly empty.
-- **Culture**: the city is built in rings, and rank decides how close to
-  the palace you may live. Nobles of the inner ring wear hush jewelry as a
-  mark of rank; they have never felt magic and are proud of it. Every child
-  born there gets a hush coin in its cradle, a custom from the days when
-  wild magic could touch a baby.
-- **Exports**: coin (less every year), law and charters, and titles, now
-  sold to merchants. The old nobility sneers at these **paper lords** while
-  borrowing from them.
-- **Imports**: grain, hush, officers, and more and more paper money.
-- **Significance**: the **Long Noon** festival at midsummer, a pageant of
-  the golden age that grows more lavish as the treasury grows emptier.
-- **Now**: the Mint is quietly melting old coin for the armories. Tallis
-  paper passes from hand to hand in the outer rings; the inner ring still
-  won't touch it. The court insists nothing has changed.
-
-### Skarrow, the hush mines
-
-- **Known for**: the oldest hush mines, and a town that talks with its
-  hands.
-- **Culture**: miners never speak underground, where sound can bring down
-  rock, so they talk in a hand-language, and the whole town uses it above
-  ground too, even at weddings. Before cutting new rock, a miner lays a palm
-  on the stone to "ask the mountain".
-- **Exports**: hush, less every year; and now blackspoil. The waste heaps
-  are worth more than the mines.
-- **Imports**: food, timber for pit props, rope, and engines from Tallis to
-  pump the deepening shafts.
-- **Significance**: the Deep Chapel at the bottom of the oldest shaft,
-  where offerings are left.
-- **Now**: the hush lords dig deeper, and a Tallis house owns the engines
-  that keep the water out. Last year a new shaft broke into a sealed hall
-  from before the empire, full of relics; relics leak out through smugglers
-  to Tallis. And as the veins thin, miners say that when they ask, the
-  mountain answers.
-
-### Holdfast, the soldiers' home
-
-- **Known for**: the academy, and the **Wall of Hilts**.
-- **Culture**: soldier families by inheritance. Children enter the academy
-  at seven. Each family keeps its hush arms as heirlooms, and when a weapon
-  is spent, its hilt is set in the Wall of Hilts with the name of the
-  soldier who spent it.
-- **Exports**: officers, who serve across the empire; hush-smithing, since
-  only Holdfast's smiths can forge it.
-- **Imports**: food, horses, hush from Skarrow, and the crown's pay, which
-  comes later every year.
-- **Significance**: the Wall of Hilts, which grows longer every year because
-  spent arms are no longer replaced.
-- **Now**: families sell their heirloom arms to pay debts. Young officers
-  hire out as guards to merchant houses, to their parents' shame, and some
-  officers talk of the army taking charge. The fear no one says aloud: a
-  soldier's child with a gift, who puts on the family armor and feels it
-  drinking them.
-
-### Tallis, the engine city
-
-- **Known for**: the Exchange, where anything has a price, and the engine
-  works beside it.
-- **Culture**: Tallis bought its freedom from the crown, and its charter
-  hangs in the Exchange with the price written on it; the city is proud of
-  the price. Every agreement, even a marriage, is sealed by splitting a
-  tally stick, and each party keeps half. Life runs by the works whistle.
-- **Exports**: engines, cloth from the steam mills, paper money and credit;
-  relics, sold openly at the Night Market.
-- **Imports**: blackspoil, raw wool, hush bought for resale, and people:
-  farmhands and craftsmen put out of work across the provinces.
-- **Significance**: Charter Day, when the city burns a copy of its old tax
-  rolls.
-- **Now**: the fastest-growing city in the empire, and the crown owes its
-  houses more than it could ever repay. The lower town is packed with mill
-  hands. The richest house has started hiring gifted workers on twenty-year
-  contracts, for work no engine can do yet.
-
-### Amberlea, the granary
-
-- **Known for**: the grain of the long river valley.
-- **Culture**: families hold hereditary "river-shares", rights to the
-  water, settled by the Water Moot from a ledger older than the empire.
-  Children are named at the riverbank and given a river-stone they keep all
-  their lives and are buried with.
-- **Exports**: wheat, barley, ale, linen.
-- **Imports**: iron tools, salt, dyes.
-- **Significance**: the **Sheaf Procession**: each harvest the first sheaf
-  goes by barge to Vessary and is laid before the throne. It is a tax
-  dressed as a blessing, and the valley knows it.
-- **Old way**: rain-songs. Grandmothers still sing them in the fields out
-  of habit, and on the valley's poor edge, where there was never much hush,
-  they have started to work. Farmers who sing get rain, and their neighbors
-  report them to the hush-band officers, or don't.
-- **Now**: Tallis houses are buying steam threshers and the land to use
-  them on. Farmhands out of work drift downriver to the mills.
-
-### Orison, the Keepers' house
-
-- **Known for**: the **Reliquary**, the largest store of sated hush inside
-  the empire.
-- **Culture**: a town of pilgrims. Keepers vow never to spend a coin. The
-  custom: pilgrims don't spend their hush coin at Orison, they give it back,
-  dropping it into the Reliquary's well. Every coin given is a coin taken out
-  of the crown's economy for good.
-- **Exports**: blessings, scribes and learning, the pilgrim trade.
-- **Imports**: coin, as offerings; food.
-- **Significance**: the Giving, the yearly festival when pilgrims drop their
-  coins into the well.
-- **Now**: the crown has started "asking" the Reliquary for loans. Pilgrims
-  bring paper now, which the Keepers refuse. People whose gifts have woken
-  come asking the Keepers for help, and the Keepers ask them for their
-  obedience.
-
-### Ashwen, where the hush ran out
-
-- **Known for**: its dead mine head, hung with charms.
-- **Culture**: Ashwen's small hush vein ran out thirty years ago. The crown's
-  men left, the coin went with them, and magic came back here first. The
-  village has relearned the old ways from grandmothers' stories. When a
-  child's gift first shows, the village holds a **waking** feast; in the
-  rest of the empire, that child would be put in a hush band.
-- **Exports**: pelts, herbs, and healing: people from richer towns come to
-  Ashwen's healers in secret.
-- **Imports**: salt, iron and cloth, through smugglers.
-- **Significance**: the old workings. Beasts nest in them, and nobody
-  drives them out.
-- **Now**: poorer and more dangerous than the rest of the empire, but its
-  people have something the rest don't. Patrols still come to band gifted
-  children, and Tallis recruiters come with contracts. Ashwen hides its
-  children from both.
-
-## Names
-
-**Proposed.** Three names for one metal, one for each point of view:
-
-- Soldiers and miners call it **hush**, for what it does.
-- The crown's name for it could be **zyl**, which would make the empire
-  **Zylia**, "the land of zyl": the game named for the thing that's running
-  out. (Claude's pick for the empire's name, if the owner has no other plan
-  for "Zylia".)
-- The Keepers call it **the Trust**, for what they believe it holds.
-
-Other empire names from round 1: **Meridane** (named for noon, now in its
-evening) and **Halcyra** (echoing "halcyon days").
-
-## Round 1 (superseded)
-
-Round 1 offered three histories for the home empire. **A**: a chain of
-great Lamps silences wild magic and keeps beasts away, and the Lamps are
-failing one by one. **B**: the powers are heirs of one broken golden-age
-empire. **C**: the silver and tribute ran out, and merchant houses own the
-crown's debts. It also sketched two rival powers and seven places. The owner
-kept A's suppression idea and C's economics and dropped the Lamps; round 2
-reworks everything else around hush. The full round 1 text is in commit
-ddb3965.
-
-## Questions for the owner (round 2)
-
-1. Does **hush** (a metal that drinks magic) work as the resource?
-2. Which priesthood: the **Keepers** or the **Still**?
-3. Where hush comes from: the earth, the sky, bones, or leave it for later?
-4. Does **"Who do you belong to?"** capture the theme?
-5. **Zylia**, named for the metal, for the empire?
+1. Which core idea: the **Unmarked**, the **Beasts**, or the **Shield**?
+2. Does the spine of status, contract and chosen bonds capture your theme?
+3. Should magic exist at all, now that the game doesn't need a magic system?

@@ -14,6 +14,14 @@ built so that content is structured data with a schema, and the design
 process is documented so that many agents can contribute consistently over a
 long time.
 
+**Open question** ([#45](https://github.com/abarth/zylia/issues/45)): the
+owner wants to move the project toward a choice-driven interactive narrative,
+an interactive graphic novel in the style of a retro JRPG, with combat
+underplayed and key player choices that change the world and the characters'
+outcomes. How much combat stays, how choices branch, the presentation and the
+milestones wait on that issue; the vision, pillars and milestones below will
+be updated when it is decided.
+
 ## Pillars
 
 1. **Characters first.** Like FF4 and FF6, the party is the story. Every
