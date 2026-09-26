@@ -51,12 +51,15 @@ shape the cast (stage 3).
 
 ## Changing canon
 
-A change to an approved document is a pull request that:
+A change to an approved document needs the owner's approval before it lands
+on `main`. Propose it in a `needs decision` issue that lists every
+downstream document and content file affected. Once the owner has decided,
+push one change that:
 
 - edits the canon document directly (don't add contradicting notes);
-- lists every downstream document and content file affected, and updates
-  them or opens issues for them;
-- is approved by the owner before merge.
+- updates the affected downstream documents and content, or opens issues
+  for them;
+- references the issue (`Fixes #N`).
 
 ## Document conventions
 
