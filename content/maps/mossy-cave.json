@@ -1,0 +1,75 @@
+{
+  "id": "mossy-cave",
+  "name": "Mossy Cave",
+  "kind": "dungeon",
+  "tiles": [
+    "RRRRRRRRRRRRRRRRRRRR",
+    "RRR______RRRR____RRR",
+    "RR___RR___RR___R__RR",
+    "RR__RRRR___R__RRR_RR",
+    "RR__RRRRR______RR_RR",
+    "RR___RRRRRRRR_RR__RR",
+    "RRR___RRR_____RR_RRR",
+    "RRRR__RR__RRRRR__RRR",
+    "RRRR______RRRR__RRRR",
+    "RRRRRR_RRRRRR__RRRRR",
+    "RRRRRR__RRRR__RRRRRR",
+    "RRRRRRR________RRRRR",
+    "RRRRRRRR____RRRRRRRR",
+    "RRRRRRRR__RRRRRRRRRR",
+    "RRRRRRRRRvRRRRRRRRRR"
+  ],
+  "legend": {
+    "R": "rock",
+    "_": "cavefloor",
+    "v": "exit"
+  },
+  "entities": [
+    {
+      "type": "warp",
+      "x": 9,
+      "y": 14,
+      "to": {
+        "map": "overworld",
+        "x": 28,
+        "y": 5
+      }
+    },
+    {
+      "type": "chest",
+      "id": "cave-key-chest",
+      "x": 3,
+      "y": 1,
+      "item": "old-key",
+      "quantity": 1
+    },
+    {
+      "type": "chest",
+      "id": "cave-gold",
+      "x": 16,
+      "y": 1,
+      "gold": 80
+    },
+    {
+      "type": "chest",
+      "id": "cave-sword",
+      "x": 2,
+      "y": 4,
+      "item": "bronze-sword",
+      "quantity": 1
+    }
+  ],
+  "encounters": {
+    "rate": 0.08,
+    "groups": [
+      {
+        "group": "bats-3",
+        "weight": 2
+      },
+      {
+        "group": "goblins-2",
+        "weight": 1
+      }
+    ]
+  }
+}
