@@ -1,0 +1,8 @@
+{
+  "potion": { "name": "Potion", "kind": "consumable", "price": 30, "description": "Restores 50 HP to one ally." },
+  "ether": { "name": "Ether", "kind": "consumable", "price": 150, "description": "Restores 30 MP to one ally." },
+  "phoenix-down": { "name": "Phoenix Down", "kind": "consumable", "price": 300, "description": "Revives a fallen ally." },
+  "bronze-sword": { "name": "Bronze Sword", "kind": "weapon", "price": 120, "description": "A plain but sturdy blade." },
+  "leather-cap": { "name": "Leather Cap", "kind": "armor", "price": 50, "description": "Better than nothing." },
+  "old-key": { "name": "Old Key", "kind": "key", "price": 0, "description": "A rusted key found in the Mossy Cave." }
+}

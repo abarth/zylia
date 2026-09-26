@@ -1,0 +1,6 @@
+{
+  "slimes-2": { "name": "Slimes", "enemies": ["green-slime", "green-slime"] },
+  "goblin-slime": { "name": "Goblin Scout", "enemies": ["goblin", "green-slime"] },
+  "bats-3": { "name": "Bat Swarm", "enemies": ["cave-bat", "cave-bat", "cave-bat"] },
+  "goblins-2": { "name": "Goblin Pair", "enemies": ["goblin", "goblin"] }
+}

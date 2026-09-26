@@ -1,0 +1,26 @@
+{
+  "green-slime": {
+    "name": "Green Slime",
+    "color": "#6cd048",
+    "level": 1,
+    "stats": { "hp": 18, "mp": 0, "str": 6, "agi": 4, "vit": 5, "mag": 1, "spr": 2, "lck": 2 },
+    "xp": 4,
+    "gold": 6
+  },
+  "cave-bat": {
+    "name": "Cave Bat",
+    "color": "#8c5ac8",
+    "level": 2,
+    "stats": { "hp": 14, "mp": 0, "str": 7, "agi": 12, "vit": 4, "mag": 1, "spr": 3, "lck": 5 },
+    "xp": 6,
+    "gold": 4
+  },
+  "goblin": {
+    "name": "Goblin",
+    "color": "#b0a040",
+    "level": 3,
+    "stats": { "hp": 30, "mp": 0, "str": 10, "agi": 7, "vit": 8, "mag": 2, "spr": 3, "lck": 4 },
+    "xp": 10,
+    "gold": 15
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "elder-intro": {
+    "lines": [
+      { "speaker": "Elder Bram", "text": "Ah, travelers. Aldren has not seen new faces since the tremors began." },
+      { "speaker": "Elder Bram", "text": "Something stirs beneath the Mossy Cave to the north-east. My old key to the lower passage was lost there years ago." },
+      { "speaker": "Kael", "text": "We'll look for it." },
+      { "speaker": "Elder Bram", "text": "Cross the bridge east of the forest. And be careful." }
+    ],
+    "setFlags": ["met-elder"]
+  },
+  "elder-reminder": {
+    "lines": [
+      { "speaker": "Elder Bram", "text": "The Mossy Cave lies north-east, across the bridge. Find the old key." }
+    ]
+  },
+  "elder-key": {
+    "lines": [
+      { "speaker": "Elder Bram", "text": "The old key! You found it." },
+      { "speaker": "Elder Bram", "text": "Then the lower passage can be opened... but that is a story yet to be written." }
+    ]
+  },
+  "child-chatter": {
+    "lines": [
+      { "speaker": "Pip", "text": "Press Z to talk, X to close the menu, and Esc to open it!" },
+      { "speaker": "Pip", "text": "My mom says monsters live in the tall grass. I only ever see slimes." }
+    ]
+  },
+  "merchant-closed": {
+    "lines": [
+      { "speaker": "Merchant", "text": "Shop's not open yet. The economy hasn't been designed!" }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Zylia",
+  "start": { "map": "overworld", "x": 12, "y": 13 },
+  "party": ["kael", "mira"],
+  "gold": 100,
+  "inventory": [{ "item": "potion", "quantity": 3 }]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "town-aldren",
+  "name": "Aldren",
+  "kind": "town",
+  "tiles": [
+    "####################",
+    "#gggggggggggggggggg#",
+    "#gHHHHggggggggHHHHg#",
+    "#gHHHHggggggggHHHHg#",
+    "#gHDHHggggggggHHDHg#",
+    "#g,,,,,,,,,,,,,,,,g#",
+    "#g,gggggggggggggg,g#",
+    "#g,gggggg~~ggggggg,#",
+    "#g,,,,,,,~~,,,,,,,g#",
+    "#gggggggg,,,ggggggg#",
+    "#gHHHHggg,,,gggHHHH#",
+    "#gHHDHggg,,,gggHDHH#",
+    "#gg,,,,,,,,,,,,,,gg#",
+    "#gggggggg,,,ggggggg#",
+    "#gggggggg,,,ggggggg#",
+    "#########vvv########"
+  ],
+  "legend": {
+    "#": "wall",
+    "g": "lawn",
+    ",": "floor",
+    "H": "house",
+    "D": "door",
+    "~": "water",
+    "v": "exit"
+  },
+  "entities": [
+    {
+      "type": "warp",
+      "x": 9,
+      "y": 15,
+      "to": {
+        "map": "overworld",
+        "x": 10,
+        "y": 13
+      }
+    },
+    {
+      "type": "warp",
+      "x": 10,
+      "y": 15,
+      "to": {
+        "map": "overworld",
+        "x": 10,
+        "y": 13
+      }
+    },
+    {
+      "type": "warp",
+      "x": 11,
+      "y": 15,
+      "to": {
+        "map": "overworld",
+        "x": 10,
+        "y": 13
+      }
+    },
+    {
+      "type": "npc",
+      "id": "elder",
+      "name": "Elder Bram",
+      "x": 5,
+      "y": 8,
+      "color": "#d0b060",
+      "glyph": "E",
+      "dialogue": "elder-intro",
+      "variants": [
+        {
+          "ifFlag": "found-old-key",
+          "dialogue": "elder-key"
+        },
+        {
+          "ifFlag": "met-elder",
+          "dialogue": "elder-reminder"
+        }
+      ]
+    },
+    {
+      "type": "npc",
+      "id": "child",
+      "name": "Pip",
+      "x": 13,
+      "y": 12,
+      "color": "#f0a0a0",
+      "glyph": "P",
+      "dialogue": "child-chatter"
+    },
+    {
+      "type": "npc",
+      "id": "merchant",
+      "name": "Merchant",
+      "x": 15,
+      "y": 5,
+      "color": "#60c0c0",
+      "glyph": "$",
+      "dialogue": "merchant-closed"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 13,
+      "text": "Welcome to Aldren. Mind the fountain."
+    },
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 5,
+      "text": "The inn is closed until someone designs an inn."
+    },
+    {
+      "type": "chest",
+      "id": "town-chest",
+      "x": 18,
+      "y": 1,
+      "item": "potion",
+      "quantity": 2
+    }
+  ]
+}

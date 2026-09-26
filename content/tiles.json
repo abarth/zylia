@@ -1,0 +1,20 @@
+{
+  "ocean": { "name": "Ocean", "color": "#1c3f9e", "walkable": false },
+  "grass": { "name": "Grassland", "color": "#4c9a3c", "walkable": true },
+  "forest": { "name": "Forest", "color": "#23602a", "walkable": true, "glyph": "f" },
+  "mountain": { "name": "Mountains", "color": "#7a6348", "walkable": false, "glyph": "^" },
+  "sand": { "name": "Sand", "color": "#d8c47a", "walkable": true },
+  "road": { "name": "Road", "color": "#a88a5c", "walkable": true },
+  "bridge": { "name": "Bridge", "color": "#8a5a2c", "walkable": true, "glyph": "=" },
+  "town": { "name": "Town", "color": "#c8503c", "walkable": true, "glyph": "T" },
+  "cave": { "name": "Cave Entrance", "color": "#303030", "walkable": true, "glyph": "C" },
+  "wall": { "name": "Stone Wall", "color": "#5a5a66", "walkable": false },
+  "floor": { "name": "Cobblestone", "color": "#9c9488", "walkable": true },
+  "lawn": { "name": "Lawn", "color": "#5cae48", "walkable": true },
+  "house": { "name": "House", "color": "#9c4a30", "walkable": false, "glyph": "H" },
+  "door": { "name": "Door", "color": "#3c2414", "walkable": false, "glyph": "D" },
+  "water": { "name": "Fountain", "color": "#3c78d8", "walkable": false },
+  "rock": { "name": "Cave Rock", "color": "#3a3028", "walkable": false },
+  "cavefloor": { "name": "Cave Floor", "color": "#6e6050", "walkable": true },
+  "exit": { "name": "Exit", "color": "#e0d890", "walkable": true, "glyph": "v" }
+}

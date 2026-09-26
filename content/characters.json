@@ -1,0 +1,18 @@
+{
+  "kael": {
+    "name": "Kael",
+    "job": "Knight",
+    "color": "#e8e8f0",
+    "level": 3,
+    "stats": { "hp": 72, "mp": 0, "str": 14, "agi": 8, "vit": 13, "mag": 4, "spr": 6, "lck": 7 },
+    "bio": "Placeholder hero. A young knight; story role not yet designed."
+  },
+  "mira": {
+    "name": "Mira",
+    "job": "White Mage",
+    "color": "#f0d0e0",
+    "level": 2,
+    "stats": { "hp": 44, "mp": 24, "str": 5, "agi": 9, "vit": 7, "mag": 10, "spr": 14, "lck": 9 },
+    "bio": "Placeholder healer. Story role not yet designed."
+  }
+}
