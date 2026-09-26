@@ -26,7 +26,9 @@ before each stage builds on the last.
    stage. See [process.md](process.md).
 3. **Compete, critique, choose.** Important decisions (premise, cast, arc)
    start with several distinct drafts, each reviewed against
-   [review.md](review.md), and the owner chooses.
+   [review.md](review.md), and the owner chooses. Or, when the owner
+   prefers, the owner and Claude workshop a stage together in conversation
+   ([process.md](process.md#workshop-mode)).
 4. **Track promises.** Every setup, mystery and foreshadowing goes in
    [canon/threads.md](canon/threads.md) with its planned payoff.
 5. **Changing canon is allowed, and is explicit.** A change to approved canon

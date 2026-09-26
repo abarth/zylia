@@ -49,6 +49,26 @@ shape the cast (stage 3).
    and new setups to [canon/threads.md](canon/threads.md). Rejected drafts
    stay in `drafts/` as a record of ideas considered.
 
+### Workshop mode
+
+The owner can choose to run a stage as a conversation instead of competing
+drafts. **Decided** (owner, 2026-09-26): stage 1 runs this way. In workshop
+mode, steps 2 to 5 above are replaced by:
+
+1. **Talk it through.** The owner and Claude iterate in a project thread.
+   The owner gives ideas; each round, Claude builds on them with a few
+   concrete, distinct options, says which it finds strongest and why, and
+   asks for the owner's reaction. Together they decide what makes the most
+   compelling story.
+2. **Keep a running record** in `drafts/<stage>/`, one file per topic (for
+   example [drafts/premise/setting.md](drafts/premise/setting.md)). Mark
+   each idea as the owner's, **Agreed**, **Proposed** or **Rejected**, so
+   that any later session can pick up the conversation where it stopped.
+3. **Write it up.** When the owner is happy, the agreed ideas go into the
+   stage's template. Claude checks the result against
+   [review.md](review.md) and raises any weak spots with the owner.
+4. **Owner approval**, then canonize as in step 6.
+
 ## Changing canon
 
 A change to an approved document needs the owner's approval before it lands

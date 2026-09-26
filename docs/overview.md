@@ -77,8 +77,9 @@ Each issue has a milestone label and one or more area labels (`battle`,
 | **M5: Full game** | Remaining chapters, balance passes, polish | |
 
 The [story](https://github.com/abarth/zylia/issues?q=is%3Aissue+is%3Aopen+label%3A%22story%22) runs as its own track through the stages in
-[story/process.md](story/process.md), alongside the code milestones. It
-starts when the owner says so.
+[story/process.md](story/process.md), alongside the code milestones. Stage 1
+(premise) started on 2026-09-26 as a workshop between the owner and Claude;
+see [story/drafts/premise/](story/drafts/premise/setting.md).
 
 ## Documentation map
 
