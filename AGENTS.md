@@ -10,9 +10,33 @@ Guidance for agents (and humans) contributing to this repository.
    area labels, and a "Done when" list. Reference the issue in your pull
    request (`Fixes #N`) so it closes when the work lands. Issues labeled
    `needs decision` wait on the project owner; don't implement them until
-   the decision is recorded.
+   the decision is recorded (see [Decisions](#decisions)).
 3. Read the design doc for the system you're touching (docs/design/) or the
    story docs for content you're writing (docs/story/).
+
+## Decisions
+
+Major decisions about the game go through GitHub issues, not chat:
+
+1. **Ask.** Open an issue labeled `needs decision` (plus milestone and area
+   labels). Lay out the options with their trade-offs, give a
+   recommendation, and link the design doc that will record the answer.
+   Mark the question as an **Open question** in that doc.
+2. **Owner decides.** The owner answers in the issue's comments and relabels
+   it `decided`. Don't act on a `needs decision` issue before that.
+3. **Apply.** An agent picks up `decided` issues, reads the owner's answer
+   closely, and lands it in a pull request: move the question to
+   **Decided** in the design doc (or the story framework), phrased as the
+   owner's rules, and update any code, content, schema or README it
+   affects. Parts the owner left open stay **Open questions**; mechanics
+   you add to fill gaps are **Proposed**, never Decided. Update or open
+   follow-up issues for the work the decision unblocks rather than building
+   large new features in the same PR.
+4. **Close.** Once the PR has merged, close the issue with a comment linking
+   the PR (`Fixes #N` in the PR does this automatically).
+
+Smaller questions can still be settled in chat; record the outcome in the
+relevant doc either way.
 
 ## Rules of thumb
 

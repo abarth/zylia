@@ -13,6 +13,13 @@
   facing one to interact.
 - Random encounters use a per-map table: a chance per step and weighted
   encounter groups.
+- **Only one party member is shown on the field**, as in FF4 ([#17](https://github.com/abarth/zylia/issues/17)).
+  The player picks which one with Q / Page Up and E / Page Down, cycling
+  through the party. The choice is purely cosmetic: it never affects
+  gameplay, battle order or the story, and events must not branch on it.
+  It is stored as `GameState.fieldLeader` (a party member id) so it
+  survives saves. Cutscenes that need other members on screen spawn them as
+  event actors.
 
 ## Proposed
 
@@ -37,4 +44,3 @@
 
 - Vehicles: which ones, and when in the story?
 - Should the world map wrap around (FF4/FF6 do)?
-- Do we show the whole party walking in a line or only the leader?

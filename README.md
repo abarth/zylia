@@ -40,6 +40,7 @@ Other scripts:
 | Z / Enter / Space            | Talk, examine, open, confirm   |
 | X / Backspace                | Cancel, close                  |
 | Esc / C                      | Open or close the menu         |
+| Q / Page Up, E / Page Down   | Change who walks on the field  |
 
 URL parameters for experimenting:
 

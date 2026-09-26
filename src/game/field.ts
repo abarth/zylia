@@ -6,7 +6,7 @@ import { BattleScene } from "./battle";
 import { DialogueScene } from "./dialogue";
 import type { Game, Scene } from "./game";
 import { MenuScene } from "./menu";
-import { addItem, chestFlag, hasFlag, setFlag, type Direction } from "./state";
+import { addItem, chestFlag, cycleFieldLeader, fieldLeader, hasFlag, setFlag, type Direction } from "./state";
 
 /** Game pixels moved per tick while walking (16 / 2 = 8 ticks per tile). */
 const WALK_SPEED = 2;
@@ -32,6 +32,9 @@ export class FieldScene implements Scene {
   private bannerTicks = BANNER_TICKS;
 
   update(game: Game): void {
+    // Switching the visible member works mid-step too; it changes nothing else.
+    if (game.input.pressed("prevMember")) cycleFieldLeader(game.state, -1);
+    if (game.input.pressed("nextMember")) cycleFieldLeader(game.state, 1);
     if (this.walking) {
       this.continueWalking(game);
       return;
@@ -47,6 +50,7 @@ export class FieldScene implements Scene {
       this.interact(game);
       return;
     }
+
     const direction = DIRECTION_ORDER.find((d) => input.held(d as Action));
     if (direction) this.tryStep(game, direction);
   }
@@ -207,8 +211,8 @@ export class FieldScene implements Scene {
       }
     }
 
-    // The party is drawn as its leader.
-    const leader = state.party[0];
+    // The party is drawn as one member, chosen by the player (cosmetic only).
+    const leader = fieldLeader(state);
     const lx = px - camX;
     const ly = py - camY;
     drawBox(ctx, lx + 2, ly + 1, TILE_SIZE - 4, TILE_SIZE - 2, leader.color);
