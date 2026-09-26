@@ -7,7 +7,7 @@
 - A save is `{ "version": 1, "savedAt": ISO date, "playTime": seconds,
   "summary": {...}, "state": GameState }`.
 - `GameState` is already plain JSON (see [architecture.md](architecture.md)),
-  so saving is `JSON.stringify`. Rules to keep it that way: no class
+  so it can be stored as is and exported as a file. Rules to keep it that way: no class
   instances, no Maps or Sets, no references to content objects (store ids).
 - `summary` holds what the load screen shows without parsing everything:
   location name, party leader, level, play time.
@@ -16,8 +16,21 @@
 
 ## Storage
 
-- `localStorage`, key `zylia.save.<slot>`, 3 slots.
-- Export/import a save as a file for backups and bug reports.
+**Decided: IndexedDB.**
+
+- Database `zylia`, object store `saves`, keyed by slot number (3 slots to
+  start). Each record is the save object above. The object store is created
+  in the database's version-1 upgrade; later schema changes to the database
+  itself (not the save format) go through IndexedDB's `onupgradeneeded`.
+- All access goes through one small async module (e.g. `src/save/store.ts`)
+  with `listSaves()`, `load(slot)`, `save(slot, data)`, `remove(slot)`, so
+  the rest of the game never touches the IndexedDB API directly. Tests use
+  an in-memory implementation of the same interface.
+- Call `navigator.storage.persist()` on first save so the browser is less
+  likely to evict saves under storage pressure.
+- If IndexedDB is unavailable (some private browsing modes), show a message
+  that saving is disabled rather than failing silently.
+- Export/import a save as a JSON file for backups and bug reports.
 
 ## When the player can save
 
