@@ -69,6 +69,32 @@ mode, steps 2 to 5 above are replaced by:
    [review.md](review.md) and raises any weak spots with the owner.
 4. **Owner approval**, then canonize as in step 6.
 
+### Randomness
+
+**Decided** (owner, 2026-09-26): a language model tends to make the same
+choices again and again, so design work takes its decisions from an outside
+source of randomness.
+
+- Whenever an agent makes a decision about a direction or a concept, it
+  writes **ten** genuinely different ideas and lets the random picker choose
+  one ([tools/pick.mjs](../../tools/pick.mjs), which draws with a
+  cryptographic random number generator).
+- The owner expects about **a hundred draws** in each design round.
+
+How to apply it:
+
+- Log every draw next to the working notes, so the owner can see them:
+  `npm run pick -- --log docs/story/drafts/<stage>/draws/<round>.md "Question?" "idea 1" ... "idea 10"`.
+  Independent decisions can go in one `--batch file.json` (an array of
+  `{ "question", "options", "pick" }`); a decision that depends on an
+  earlier one is drawn after it. `--pick 3` draws three distinct ideas, for
+  example to choose several candidates to keep.
+- Build on what is drawn. When two draws pull against each other, find the
+  reading that honors both; if there is none, the earlier draw wins. List
+  every such reading in the working notes. Never re-draw a decision to get a
+  different answer, and never draw against something the owner has decided.
+- The ideas that weren't drawn stay in the log as an idea bank.
+
 ## Changing canon
 
 A change to an approved document needs the owner's approval before it lands

@@ -23,234 +23,332 @@ Each idea is marked:
 
 ### Owner's direction
 
-Round 1 (2026-09-26):
+Rounds 1 to 3 (2026-09-26), in short:
 
-- The story is set in the **twilight of an empire**. There are two or three
-  major powers, reaching the end of their strength and remembering a golden
-  age. Their wealth and power are fading.
-- The **old ways of magic** are starting to resurface.
-- The **merchant class** is gaining power and importance.
-- The **soldiers** worry about their future: the empire is the source of
-  their place in society.
-- The main power, where we start, is made of many towns, villages and
-  cities, each with its own culture, major exports and imports, and things
-  of cultural significance.
-
-Round 2 (2026-09-26):
-
-- Something that suppresses magic is the source of the imperial powers'
-  strength. Not a flame: the setting should be **economically driven**, so
-  that there can be many factions, each acting in its own self-interest.
-- A mystical resource mined for centuries, whose veins are running dry, that
-  powers the soldiers' arms. The merchant class rises on **steam-age
-  mechanization**, as the middle class did in the Industrial Revolution. A
-  priesthood with a different relationship to the resource.
+- A world going through a **major social and economic transition**. The
+  power structures of the past have **lost their foundations**, and they
+  remember a golden age. An **industrial revolution** of steam and machines
+  is raising a new merchant elite that wants to succeed the imperial
+  powers. The soldiers fear for their place. The setting is **economically
+  driven**, with many factions acting in their own self-interest. The home
+  power is made of many towns with distinct cultures, trade and customs.
 - **Theme**: the power of the individual to overcome external powers,
-  whether domination by force (the imperial powers) or economic domination
-  and mechanical inhumanity (the merchant class). The protagonists are
-  everyday people who want their individual freedom, expressed through their
-  magic, their relationships with each other, and their humanity.
+  whether domination by force or economic domination and mechanical
+  inhumanity. The protagonists are everyday people struggling for
+  **self-determination and humanity**, through their relationships with each
+  other.
+- The project is moving toward a **choice-driven interactive narrative**,
+  an interactive graphic novel in the style of a retro JRPG, where the
+  player's key choices change the world and the characters' outcomes
+  ([#45](https://github.com/abarth/zylia/issues/45)). The setting doesn't
+  have to serve Final Fantasy mechanics.
 
-Round 3 (2026-09-26), responding to Claude's round 2:
+Round 4 (2026-09-26), responding to Claude's round 3:
 
-- The resemblance to Final Fantasy VI comes from the **core idea**: magic
-  suppressed by an imperial power, and relics that teach magic. Look for
-  another core idea.
-- The project should move toward an **interactive narrative**, like an
-  interactive graphic novel in the style of a retro JRPG, underplaying
-  combat in favor of story. The player makes key choices for the main
-  characters that have meaningful effects on the world and on that
-  character's outcome. (For the project as a whole this is
-  [#45](https://github.com/abarth/zylia/issues/45).) That opens up the
-  setting and themes, since the story no longer has to serve Final
-  Fantasy-style mechanics.
-- Keep: a world going through a **major social and economic transition**.
-  The power structures of the past have **lost their foundations**. An
-  **industrial revolution** is raising a new elite that wants to succeed the
-  imperial powers. The protagonists struggle for **self-determination and
-  humanity** in the turmoil.
+- Go with **the Unmarked** and develop it. But not a visible mark on the
+  hand: a person's station should be **determined by the priesthood**, and
+  perhaps **divined** in some way.
+- Magic is **undecided**: keep it as a possibility and think about it as the
+  world develops.
+- The protagonists' point of view needs **a thematic element to organize
+  it**, in contrast to the new elite's industrial vision. It doesn't have to
+  be magic; it could be creativity or something less literal.
+- **Randomness**: from now on, every decision Claude makes about a
+  direction or a concept starts from ten ideas, and a program picks among
+  them at random, about a hundred times per design round (see
+  [../../process.md](../../process.md#randomness)).
+
+### Agreed
+
+- The core idea: **the generation nobody assigned** (round 3's "Unmarked").
+  For centuries every child was assigned a station at birth; nineteen years
+  ago that stopped, and the first generation without stations is coming of
+  age.
+- The thematic spine: **status, contract, chosen bonds**. The old order says
+  you are what you were born; the new elite says you are what you are paid;
+  the protagonists want to be who they choose, with the people they choose.
 
 ### Rejected so far
 
-- The **Lamps** (round 1) and the bells variant: a flame isn't connected
-  enough to the economy.
-- **Hush** (round 2), and with it the whole core of magic suppressed by the
-  empire and returning, with relics that teach it: too close to Final
-  Fantasy VI.
+- The **Lamps** (round 1): a flame isn't connected enough to the economy.
+- **Hush** (round 2), and any core of magic suppressed by an empire with
+  relics that teach it: too close to Final Fantasy VI.
+- The **visible mark** on the palm (round 3).
+- Round 3's other cores, the **great beasts** and the **shield without a
+  war**, weren't chosen.
 
-## Round 3 (Claude): what did the old order stand on?
+## How round 4 was made
 
-**Proposed.** The owner's brief is now that the old power structures have
-lost their foundations. So the core idea is the answer to two questions:
-what was the foundation, and how was it lost? Three candidates follow, each
-genuinely different. All three share one thematic spine.
+Claude made **100 decisions** for this round. For each, it wrote ten ideas
+and ran the random picker, and built on whatever was drawn. Every decision,
+all ten ideas and the draw are in [draws/round-4.md](draws/round-4.md): a
+thousand ideas, most of them not used, which stay there as an idea bank.
+Where two draws pulled against each other, Claude reconciled them; those
+readings are listed in [Reconciling the draws](#reconciling-the-draws).
+Everything below is **Proposed**. Draw numbers are in brackets, like [13].
 
-### The thematic spine
+## Round 4 (Claude): Meridane after the Listening
 
-Historians describe the real industrial revolution as a movement "from
-status to contract" (Henry Maine's phrase): in the old world you are what
-you were born; in the new one you are what you agree to, which in practice
-means what you are paid. The protagonists want a third thing.
+### The Listening
 
-- **The old order**: you are what you were born. (Status.)
-- **The new elite**: you are what you are paid. (Contract.)
-- **The protagonists**: you are who you choose to be, and who you choose to
-  stand with. (Self-determination, and relationships freely chosen.)
+**Meridane** [26] is three hundred years old [46]. Its founding story [30]:
+one of the twelve founding families had a midwife who, one night, heard the
+dead singing under her floor, and sang back.
 
-This spine is also the game's form. In a choice-driven game about people
-deciding who to become, every key choice the player makes is the theme in
-action. The round 2 question, "Who do you belong to?", still fits.
+In Meridane the dead are **buried under the house floor** [27]. A family's
+house stands on its ancestors, and the ancestors are how every child is
+placed. Forty days after a birth, at the child's naming [2], a priest-midwife
+comes to the house [3]. The parents are sent out until dawn [81]. The
+midwife lies down beside the cradle, over the family's dead [4], and sings
+the **Long Song**, a lullaby the dead first sang, through the night [13].
+Asleep, she shares the child's first dream and reads in it the station the
+ancestors have chosen [1]. This is **the Listening** [18].
 
-### Option 1: The Unmarked (Claude's pick)
+- There are **twelve stations**, arranged as a wheel with none above
+  another, in theory [12]. Each is named for one of the twelve founding
+  families [19]: to be divined "a Kovan", say, is to be born to the
+  founder Kovan's work, whoever your parents are.
+- **Nothing is written down** [5]. The midwives remember every station they
+  have read, and pass that memory from teacher to apprentice. When a
+  station is questioned (a marriage, an inheritance, a court case, a guild
+  admission), a midwife confirms it from memory.
+- The midwives are **the Hearth Guild** [17], a guild of priest-midwives who
+  attend every birth [3]. Their station, the first midwife's, is the one
+  really on top of the wheel [20]: they place everyone, the crown included.
+- The **golden age** was an age of learning [31]. The scribes' station wrote
+  great histories, now shelved in libraries nobody reads. The scribes wrote
+  everything down except the one thing the guild forbade: who anyone was.
 
-For six centuries, every child in the empire was born with a **mark** on the
-palm: the sign of their station. A sword for soldiers, a sheaf for farmers,
-a hammer for smiths, a scale for merchants, a crown for the imperial line.
-Nobody chose; the mark decided. The empire was built on it: law, guilds,
-marriage, inheritance and the army all read the mark. The priesthood taught
-that the marks were the god's own hand.
+### The break
 
-Nineteen years ago, children stopped being born with marks. Every child since
-has a blank palm, and nobody knows why.
+The Long Song lost verses over the generations. How many it once had,
+nobody outside the guild knows; the guild kept the count secret [32].
+Nineteen years ago **the last verse was forgotten** [13], and no midwife
+could enter a child's dream again [6]. The guild composed new verses. They
+don't work [6].
 
-Now the first **unmarked** generation is coming of age, and the protagonists
-are part of it: the first people in six hundred years who don't know what
-they are for.
+What happened, as far as anyone can piece together:
 
-- **Why everything is coming apart.** The old order can't reproduce itself.
-  No one is born a soldier, a smith or a priest any more, and the guilds and
-  laws have no place for a blank palm. The unmarked pour into the cities
-  looking for any work at all.
-- **The new elite.** Merchants were the lowest honorable station under the
-  marks: they had money but no standing. Their mills and engines run on
-  unmarked hands, hired by the hour with no guild to protect them. The
-  scale-marked families now own more than the crown, and they want its
-  place.
-- **The soldiers.** The sword-marked are the last of their kind. The army
-  must recruit the unmarked for pay, or shrink to nothing. The old soldiers
-  were born to it; their unmarked children don't have to be soldiers at all,
-  and many don't want to be.
-- **The crown.** The heir to the throne was born nineteen years ago with a
-  blank palm, and by law she can't rule. Half the court wants to pass the
-  crown to a marked cousin; the other half says the law died with the marks.
-  The heir could be a protagonist, or the figure everyone fights over.
-- **The priesthood.** If the marks were the god's hand, the god has let go.
-  The priesthood splits: some say the god is testing the empire, some say the
-  engines drove it away, and some quietly stop believing.
-- **The mystery: why did the marks stop?** Every faction has an answer that
-  serves its interests. The old guard blames the engines: the first great
-  engine was fired the year the marks stopped, which is either the cause or a
-  coincidence. The merchants say the marks were never divine, only something
-  in nature that has run its course. The priesthood says the god is judging
-  the empire. The true answer is for the arc stage, and when it lands it
-  should recontextualize the whole world.
-- **Talent or telling?** Did the marks give people the gift for their
-  station, or did people grow into what they were told they were? The
-  unmarked are the experiment. A farmer's child who turns out to be a
-  brilliant engineer is the world finding out it was never what it was told.
+- The last singer who knew the last verse **died in a mill fire** in
+  Brodna [33], in a mill owned by **House Mlynek** [85], the leading house
+  of the new elite [55].
+- The night before the fire, in secret, she had performed a Listening for
+  the newborn **heir to the throne** [49]. Nobody knows what she heard.
+- She went to Brodna **looking for someone the heir's dream had shown her**
+  [84]. She didn't find them, or nobody knows if she did.
 
-Why it's the strongest, I think:
+The guild told no one. It **sealed its mother-house and withdrew** [7].
+Families kept asking for Listenings, and some midwives kept performing them,
+inventing the dreams. Years later a mother found that the dream a midwife
+had told for her child was word for word the dream told for her neighbor's
+[8]. Nobody remembers her name now; she is a story everyone tells [43].
 
-- It makes the theme literal. Self-determination isn't a slogan here, it is
-  the protagonists' condition: nobody has told them who they are.
-- It fits the new form of the game. The player's choices are, in effect, the
-  protagonist's mark. Choosing who to become is the gameplay.
-- It has a clear "why now": the unmarked are coming of age this year.
-- The industrial revolution is caused by the loss of the old foundation, not
-  just happening alongside it.
-- Its central mystery comes with rival explanations, each held out of
-  self-interest, which is exactly the owner's "factions acting in their own
-  interest".
-- It needs no magic system. The marks are the one supernatural fact, which
-  frees the setting from Final Fantasy mechanics. Magic can come back in some
-  other form later if the owner wants it.
+### After the break
 
-Risks:
+- The generation born since the break are **the Nobodies** [16]. It began as
+  an insult. Those born before are **station-folk** [89], and the first
+  thing people ask a stranger now is **"When were you born?"**, before or
+  after the break [80].
+- The Nobodies are, in law, **wards of the crown, conscripted at eighteen**
+  [39], by **press gangs sweeping the mill towns** [82]. The first of them
+  turned eighteen last year. In practice the crown neglects them, and many
+  sleep under the looms of the mills where their parents work [73].
+- The Hearth Guild **holds everyone's station hostage** [42]. Behind its
+  sealed doors it keeps the only memory of who everyone is, and it will not
+  confirm anyone's station until it gets what it wants: **to choose the next
+  emperor** [50].
+- So stations can't be confirmed at all, except by **a few retired
+  midwives** who sell confirmations from memory [15]. Their memories are
+  fought over, they travel with bodyguards, and they enjoy their power over
+  families that once ignored them [64].
+- The heir, born the year of the break and officially never named, is
+  **nineteen**. Half the court won't accept her [28]. She has left the
+  court, and is **traveling with a Rag Theater that doesn't know who she
+  is** [88].
 
-- Caste by birth and choosing your faction are young-adult staples
-  (Divergent, Red Rising). The difference: nobody here is sorted or picks a
-  faction. The sorting has simply stopped, and there is no system to join.
-- A generation that breaks the pattern echoes Children of Men. The
-  difference is that ours is a liberation and a catastrophe at once.
-- The answer to the mystery must be worth the wait. It needs a strong
-  candidate by the arc stage.
+### The protagonists' viewpoint: the Rag Theaters
 
-### Option 2: The last of the great beasts
+The owner asked for a thematic element to organize the protagonists'
+viewpoint. The draw was **masks and theater: trying on selves, performance
+as freedom** [9].
 
-Great beasts built the empire: long-lived, intelligent, and not dragons.
-Each noble house is bonded, generation after generation, to its beasts. They
-carried the house's armies, its trade and its messages, and no one outside
-the bloodline could command them. A house's rank was its beasts.
+In a world where the dead cast every person in a role at forty days old,
+the theater is the one place anyone can play any part. The Nobodies, cast in
+nothing, have taken to it.
 
-The beasts are dying out: fewer calves every generation, and nobody knows
-why. Meanwhile engines do their work more cheaply. Rails replace the beast
-caravans, ironclads replace the war-beasts, and the telegraph wire replaces
-the message-beasts. Poor houses rent their beasts to the mills. The image at
-the heart of it is an ancient, intelligent creature in harness, turning a
-factory wheel.
+- **What it is**: street theater played from carts in the mill towns [21],
+  called **Rag Theaters** [78]. They play **everyday life in the mills,
+  back to the millworkers** [40], in masks made from mill scraps and cloth
+  ends [41]. Their audiences are the millhands and **the children too young
+  for the mills** [99].
+- **Their emblem** is two masks sewn together [92]. **Their saying**: "The
+  show goes on after the whistle" [77].
+- **Where the masks come from**: across the sea, from Isk, whose religion
+  says every god is a mask anyone may wear [22] [34].
+- **What the players want** is mostly to make a living [61]. They are not
+  revolutionaries; they are people making something of their own out of
+  scraps, which is the point.
+- **What the old order thinks**: nothing. Theater is beneath its notice
+  [23], which is exactly why it has grown.
+- **How it carries the spine**: a station is a part you're cast in; a mill
+  wage pays you to play a part in someone else's machine; a troupe is a
+  company you choose, and a mask lets you try on who you might become.
+- **Against the new elite**: the Improvers' creed is that **waste is the
+  only sin** [10], and they have abolished holidays and festivals [25]. A
+  play in a mill yard at midnight is pure waste by their measure: nothing is
+  made, nothing is sold, and people leave it different.
 
-- **Soldiers**: the beast-riders are the army's pride, and soon they will
-  have nothing to ride.
-- **The new elite**: the engine owners buy up the houses' land and titles.
-- **Theme**: the bond (by birth, loving but unchosen) against the contract
-  (chosen, but cold). The beasts mirror the protagonists: what is a living
-  thing worth in a world that prices everything by its output?
-- **Strengths**: the old order's foundation is a living thing, so losing it
-  is a tragedy the player can feel. Strong images for pixel art.
-- **Risks**: dragon-rider stories (Pern, Temeraire). The beasts mustn't be
-  dragons, mustn't be weapons first, and mustn't be telepathic soulmates.
+### The Improvers
 
-### Option 3: The shield without a war
+The new elite are **the Improvers** [24]. They come from many stations; the
+one thing they share is money [36].
 
-For three centuries the empire existed to hold one border against one enemy
-across the sea. The warrior houses were the **Shield**, and their privileges
-were the price of survival. Twenty years ago the enemy simply stopped: no
-more fleets, no more raids, and no word from across the water.
+- **Creed**: waste is the only sin [10]. **Emblem**: a lamp [91].
+- **Their machine** is the **steam loom** [11]. The workers in their mills
+  are largely old craft-guild members whose trades the looms killed [45],
+  and those workers' Nobody children.
+- **They abolished holidays**. Founders' Day, the one people miss most [79],
+  is still kept by the crown, but only in the capital [98].
+- **What they want**: to own the land the old houses stand on [53], and with
+  it the dead beneath.
+- **What they say about the break**: the Nobodies are the proof that people
+  were never born to anything [54].
+- **Their secret**: the fire that killed the last singer started in House
+  Mlynek's mill [55].
+- **With the crown**: a secret alliance against the Hearth Guild [44].
 
-Without a war, the Shield has no purpose, and the war taxes that fed it are
-resented. The merchants who built the cannon foundries and ironclads now
-build rails and mills. The emperor, whose whole legitimacy was leading the
-war, is a general without one.
+### Factions
 
-- **Soldiers**: the owner's first idea at its sharpest. Some warrior houses
-  plot a coup, some want a new war, some sell their swords.
-- **The new elite**: war profiteers turned industrialists.
-- **Mystery**: why did the enemy stop, and what is over there now?
-- **Strengths**: the most grounded, with a real historical shape: Meiji
-  Japan, where the samurai lost their place as industry and the merchant
-  class rose.
-- **Risks**: the least fantastical; it would need specific world details of
-  its own to feel like ours.
+| Faction | Wants most | Says caused the break | Secret or weakness |
+| --- | --- | --- | --- |
+| **The crown** | To rebuild the wheel by decree [47]: each year it decides how many of each station it needs, and assigns them [87] | The Nobodies' parents were impious [48] | The last singer listened to the heir the night before the fire [49] |
+| **The Hearth Guild** | To choose the next emperor [50] | The mask-religion from Isk corrupted the realm [51] | The midwives always shaped the dreams; the Listening was never as reliable as it claimed [52] |
+| **The Improvers** | The land the old houses stand on [53] | Nobody was ever born to anything [54] | The fire started in House Mlynek's mill [55] |
+| **The soldier families** | Their honor back [56]; they are now the crown's police against unrest [29] | | Half the conscripts desert within a month [57] |
+| **The old craft guilds**, now millhands | Revenge on the Improvers [58] | | |
+| **The Nobodies** | To find out what they are [59] | They are the dead's answer: what the ancestors wanted [60] | |
+| **The Rag Theaters** | To make a living [61] | | The heir is traveling with one of them [88] |
+| **The memory-sellers** (retired midwives) | Power over families that once ignored them [64] | | |
 
-### Also considered: the fading dead
+The crown owns the **salt pans** and takes most of the profit from salt
+fish [93], which is now **Meridane's main export** [75]: a humbled empire.
 
-The dead linger as long as they are remembered by name. The old houses rule
-with the counsel of centuries of remembered ancestors, while the industrial
-city makes everyone anonymous, and the forgotten dead fade. It's a lovely
-idea, but harder to put across in a game than the three above. It could
-still be one element of whichever core idea wins.
+### Isk
 
-## What carries over from rounds 1 and 2
+**Isk** [62] is the one other power that matters [35]. It was once
+Meridane's colony. A plague cut it off for a generation, and it came back
+as a republic [83]. It is a merchant republic, already industrial and richer
+than Meridane [35], and its religion holds that every god is a mask anyone
+may wear [34]. Its sailors carried the masks to Brodna, where Isk's feast
+days bring masked processions that the townsfolk watch from their windows
+[86]. What Isk wants from Meridane is its markets: Isk's cloth undersells
+Meridane's own [63] [68].
 
-The places and customs from the earlier rounds mostly survive a change of
-core idea. Under the Unmarked, for example:
+### Places
 
-| Place | Keep | Under the Unmarked |
-| --- | --- | --- |
-| Vessary, the capital | The rings of rank; the Long Noon festival | Rings by mark; the unmarked have no ring and crowd outside the walls |
-| Tallis, the merchant city | The Exchange, tally sticks, the bought charter | The scale-marked families' city, and the mills where the unmarked work |
-| Holdfast, the soldiers' home | Children enter the academy at seven; heirloom arms | The sword-marked's town, with no new cadets for nineteen years |
-| Amberlea, the granary | River-shares and river-stones; the Sheaf Procession | Sheaf-marked farmers whose unmarked children leave for the mills |
-| Skarrow, the mines | The hand-language; "asking the mountain" | Mines for the coal the engines burn |
-| Orison, the temple town | A town of pilgrims | The temple of the god whose hand the marks were |
-| Ashwen, the village apart | A village that went its own way | Where unmarked who refuse both the crown and the mills go to live on their own terms |
+Names follow a Slavic-sounding pattern [38]; "Meridane" is the empire's old
+court name. The coast faces Isk, and three of the places below look at it
+across the water.
 
-The engines, the rising merchant houses, the factions acting in their own
-interest, and the owner's theme all carry over unchanged. The full text of
-rounds 1 and 2 is in commits ddb3965 and f8dcae2.
+- **Tesnar**, the capital [65]: towers of house-tombs, each family's dead
+  stacked beneath its rooms, so the city grows upward instead of outward
+  [66]. The crown still keeps Founders' Day here [98].
+- **Brodna**, the mill city [67]: a harbor full of Isk ships unloading cheap
+  cloth that undersells Brodna's own mills [68]. House Mlynek's burned mill
+  is here, and so are the Rag Theaters' first audiences.
+- **Priboy**, the Hearth Guild's mother-house [69]: a coastal town facing
+  Isk. Its doors are sealed.
+- **Dozor**, the soldiers' town [70]: a watchtower town on the coast facing
+  Isk.
+- **Zhitna**, the granary [71]: Improvers buy up farmhouses and plough the
+  dead under.
+- **Shakhta**, the coal town [72]: a company town owned by one Improver
+  house.
 
-## Questions for the owner (round 3)
+### The mystery
 
-1. Which core idea: the **Unmarked**, the **Beasts**, or the **Shield**?
-2. Does the spine of status, contract and chosen bonds capture your theme?
-3. Should magic exist at all, now that the game doesn't need a magic system?
+The open question at the center of the setting is **what did the last
+singer hear in the heir's dream?** [94] Around it:
+
+- **Known**: the last verse died with the last singer, in a House Mlynek
+  mill, the day after she secretly listened to the heir, while she was
+  looking for someone that dream showed her.
+- **What each faction claims**, each to its own advantage: impious parents
+  (the crown), foreign masks (the guild), a superstition that was never true
+  (the Improvers), the ancestors' wish (the Nobodies).
+- **Candidate truths to keep in play** for the arc stage [14]: the crown
+  broke it, to end the guild's power over the succession; something is
+  different about the children, not the song; or it simply wore out, as
+  everything does. The guild's secret (the midwives always shaped the
+  dreams [52]) sits underneath all three.
+
+### Magic
+
+Still undecided, per the owner. Three forms to keep in mind if it does
+exist [76]:
+
+- The midwives' **shaping of dreams** was a real art that can be learned.
+- The **dead under the floors** are still speaking, only not in song.
+- Isk's **mask-gods** are real in some sense.
+
+### Toward the premise
+
+- **Tone**: grim and gritty [37]. The one thing it never does: **preach**;
+  every side gets its best argument [100].
+- **Dramatic question**: what did the last singer hear in the heir's dream?
+  [94]
+- **The player's recurring choice**: whose side to take: crown, guild,
+  mill, or none of them [95].
+- **Protagonists**: several, in turn, each seeing from a different
+  faction's side [97]. To fit the owner's direction, each would be an
+  ordinary person inside that faction, not its leader: a Nobody on a Rag
+  Theater cart, a soldier's son on a press gang, a young midwife behind the
+  sealed doors, a Mlynek clerk.
+- **Signature images** [96]:
+  - A Rag Theater playing in a mill yard at midnight, lit by the furnace
+    glow, in masks of cloth scraps.
+  - A press gang sweeping a tenement at dawn, Nobodies running across the
+    roofs.
+  - A retired midwife, surrounded by bodyguards, confirming a station for a
+    price.
+
+### Resemblances
+
+- **Persona 5**: masks and young people against a corrupt adult order.
+  Ours are communal theater, not hidden inner selves.
+- **Dishonored**: an industrial city with a plague and masks. Only Isk's
+  history touches this; keep Isk's plague in the past.
+- **Divergent and Red Rising**: assigned castes. Here the assigning has
+  stopped, and there is no system to join.
+- **The Odyssey**: Odysseus tells the Cyclops his name is Nobody. Not a
+  problem; possibly a gift for the Nobodies' own jokes.
+
+### Reconciling the draws
+
+- Stations have **no physical record** [5], so "the guild holds the records
+  hostage" [42] means its memory, and "a mother compared records" [8] means
+  she compared the dreams the midwives told.
+- "The instrument broke and the new one doesn't work" [6] and "the last
+  verse of the Long Song was forgotten" [13] combine as: the song lost its
+  last verse, and the verses the guild composed to replace it don't work.
+- **Slavic-sounding names** [38] were drawn after the empire's name,
+  **Meridane** [26], so Meridane is kept as the old court name.
+- "Several protagonists, each from a different faction" [97] is read
+  through the owner's direction that the protagonists are everyday people.
+
+## Earlier rounds (superseded)
+
+Round 1 offered the **Lamps**, round 2 **hush**, and round 3 three cores
+(the Unmarked, the great beasts, the shield without a war) with a table of
+places carried over from the earlier rounds. Their full text is in commits
+ddb3965, f8dcae2 and a27988c. Their towns and customs (Vessary's rings of
+rank, Skarrow's hand-language, Tallis's tally sticks, Amberlea's
+river-stones) are still available if any of them fits Meridane.
+
+## Questions for the owner (round 4)
+
+1. Do the **Rag Theaters** work as the protagonists' organizing idea?
+2. Does the **Listening** (a midwife sharing a newborn's first dream, over
+   the family's dead) work as the divination?
+3. Is **grim and gritty** the right tone?
+4. **Several protagonists** from different factions, or one?

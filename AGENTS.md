@@ -50,6 +50,10 @@ relevant doc either way.
   [docs/story/process.md](docs/story/process.md). Dialogue and content may
   only use facts from `docs/story/canon/`; drafts are not canon. If a scene
   needs a new fact, that's a canon change and needs the owner's approval.
+- **Draw your design decisions.** For every decision about a direction or a
+  concept, write ten ideas and let `npm run pick` choose among them, about
+  a hundred times per design round, and log the draws (owner decision; see
+  [docs/story/process.md](docs/story/process.md#randomness)).
 - **Game pixels only.** All game code works at the fixed 256x224 internal
   resolution (`src/engine/constants.ts`). Scaling to the window is handled
   once in `src/engine/display.ts`.
