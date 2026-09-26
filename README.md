@@ -9,7 +9,12 @@ This is the very first iteration: placeholder graphics (colored, labeled
 boxes on a grid), a playable field mode, and the design documents that plan
 everything else.
 
-## Run it
+## Play it
+
+The latest version on `main` is deployed to GitHub Pages:
+**https://abarth.github.io/zylia/**
+
+## Run it locally
 
 Requires Node.js 20 or newer.
 
