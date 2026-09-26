@@ -15,242 +15,378 @@ canon.
 Each idea is marked:
 
 - **Owner**: the owner's direction.
-- **Agreed**: the owner has accepted it for the premise.
+- **Agreed**: the owner has accepted Claude's proposal for the premise.
 - **Proposed**: Claude's suggestion, waiting for the owner's reaction.
 - **Rejected**: considered and dropped (kept as a record).
 
 ## Where we are
 
-**Owner** (2026-09-26):
+### Owner's direction
+
+Round 1 (2026-09-26):
 
 - The story is set in the **twilight of an empire**. There are two or three
-  major powers in the world, and all of them are reaching the end of their
-  strength. They remember a golden age in the past, but their wealth and
-  power are fading.
+  major powers, reaching the end of their strength and remembering a golden
+  age. Their wealth and power are fading.
 - The **old ways of magic** are starting to resurface.
 - The **merchant class** is gaining power and importance.
-- The **soldiers** are worried about their future: the empire is the source
-  of their place in society, and if it falls they don't know what becomes of
-  them.
-- The main power, where we start, needs a name, a history and a backstory.
-  It is made of many towns, villages and cities, each with its own culture,
-  major exports and imports, and things of cultural significance.
+- The **soldiers** worry about their future: the empire is the source of
+  their place in society.
+- The main power, where we start, is made of many towns, villages and
+  cities, each with its own culture, major exports and imports, and things
+  of cultural significance.
 
-Nothing is Agreed yet.
+Round 2 (2026-09-26), responding to Claude's round 1:
 
-## Round 1 (Claude): why is everything fading at once?
+- Keep the idea from History A that **something suppresses the magic in the
+  world, and that suppression is the source of the imperial powers'
+  strength**.
+- Not a flame: it isn't connected enough. The setting should be
+  **economically driven**, so that there can be many factions, each acting
+  in its own self-interest.
+- The suppressor is a **mystical resource** that doesn't exist in the real
+  world, which the powerful have extracted from the earth for centuries.
+  **The veins are running dry.** (This carries over the economics of History
+  C, with a fantasy resource in place of silver.)
+- The resource also **powers the soldiers' weapons and armor**. As it
+  dwindles, the soldiers can't hold their place in society, and the imperial
+  powers can't impose their will on the people.
+- The merchant class harnesses a **new source of power: early-industrial,
+  steam-age mechanization**. It rises through the economic and social
+  upheaval that causes, as the middle class did in the Industrial
+  Revolution. Mechanization is the natural course of events, and becomes the
+  way of life.
+- A **priesthood** with a different relationship to the resource: instead
+  of exploiting it to impose someone's will on someone else, they want to
+  preserve it or use it for a spiritual purpose.
+- As the resource is exhausted, **magic slowly returns**, because nothing
+  suppresses it any more.
+- **Theme**: the power of the individual to overcome external powers,
+  whether domination by force (the imperial powers) or economic domination
+  and mechanical inhumanity (the merchant class). The protagonists are
+  everyday people who want their individual freedom, expressed through their
+  magic, their relationships with each other, and their humanity.
 
-**Proposed.** If every power is fading at the same time, the strongest
-setting gives them one shared cause, so that the three trends the owner
-named (magic returning, merchants rising, soldiers afraid) are all effects
-of it rather than three separate facts. Three candidate histories for the
-home empire follow, each with a different cause. They are genuinely
-different engines, though B stacks with either of the others.
+### Rejected so far
 
-### History A: The Lamps go out (Claude's pick)
+- The **Lamps** (round 1, History A) and the bells variant: a flame isn't
+  connected enough to the economy.
+- **Vitrey**, the lamp-glass town: it only made sense with the Lamps.
 
-Six centuries ago, the continent was a dangerous patchwork of peoples, each
-with its own old magic, preyed on by beasts that follow wild magic and
-ruled by whoever could work the most of it. The empire's founders lit the
-first of the **Lamps**: great towers whose flame makes wild magic fall
-quiet and keeps the beasts away. In a Lamp's light, a farmer with a spear
-was as safe as a sorcerer. The provinces joined the empire for the light,
-some willingly and some at spear-point, and the empire grew along chains of
-Lamps down its roads, rivers and coasts.
+History B (heirs of a broken empire) wasn't taken up either way.
 
-The golden age, which people call **the Long Noon**, was the time when the
-Lamps burned everywhere: safe roads, open trade, law instead of sorcery,
-and magic so faint that it became a nursery tale.
+## Round 2 (Claude): the resource
 
-For about a century the Lamps have been failing, one by one, and nobody
-knows how to light a new one. The art was lost, or it was never really
-understood. Where a Lamp dies:
+**Proposed** unless marked otherwise.
 
-- the beasts come back to the roads;
-- the old magic works again: grandmothers' charms and field songs that did
-  nothing for five hundred years start to do something, and some children
-  are born with gifts;
-- the crown's tax collectors stop coming. The crown "draws in the light",
-  quietly abandoning provinces it can no longer protect.
+### Hush, the metal that drinks magic
 
-How the owner's three trends fall out of this:
+**Hush** is a pale, heavy metal found in deep veins. It drinks magic: a
+spell that touches it goes quiet, and the magic soaks into the metal and
+stays there. ("Hush" is what soldiers and miners call it; the crown and the
+priests have their own names for it, see [Names](#names).)
 
-- **Soldiers.** The **Lampguard** is a hereditary soldier caste that keeps
-  the Lamps, guards the lamp-roads and enforces the law against magic
-  (confiscating relics, and taking gifted children "into the light", to a
-  lit city where their gift sleeps). Every Lamp that dies is a post that no
-  longer exists. They were trained to keep order among people, not to fight
-  beasts in the dark, and the crown pays them late.
-- **Merchants.** They sell what the crown no longer can: safety (armed
-  caravans, private guards, some of them former Lampguard), credit (the
-  crown borrows from them), and relics, old-magic objects that wake when
-  their region goes dark. Rich merchants buy titles, and the old nobility
-  sneers at these **candle lords** while borrowing from them.
-- **Magic.** It returns from the edges inward, so the dark provinces are
-  where the future is visible first.
+Six centuries ago the founders of the empire learned to forge it, and it
+made them:
 
-Why it's the strongest of the three:
+- **Armor.** Spells die against hush. A soldier in hush armor can walk
+  through a sorcerer's fire, which is how a kingdom of farmers conquered a
+  continent ruled by sorcerer-lords.
+- **Arms.** Once a hush weapon has drunk its fill, a trained soldier can
+  strike it to release that magic as raw force: a thunderclap, a burst of
+  flame, a blow no one could strike unaided. Releasing it burns the metal
+  away. The soldiers fight with magic their weapons drank from the land
+  around them, and every weapon is slowly used up.
+- **Coin.** The empire struck its money from hush. A coin drinks only a
+  little, but there were millions of them, in every purse and strongbox, for
+  six hundred years. Between the garrisons and the money, hush drank the
+  world quiet, and magic became a nursery tale. The beasts that feed on
+  magic starved and dwindled with it.
 
-- One cause drives everything, so the world has a clear "why now".
-- It explains the monsters on the world map, which an FF-style game needs
-  anyway, and it lets the map change as the story goes: when a Lamp dies,
-  a safe region becomes a dangerous one.
-- It gives relics, from the magic decision
-  ([#18](https://github.com/abarth/zylia/issues/18)), a place in the world:
-  pre-imperial objects that merchants trade and soldiers confiscate.
-- It gives the old ways a home in the magic system: each province had its
-  own old way (rain-songs in the valley, asking the mountain in the mines),
-  which is a natural source for the exclusive families that belong to one
-  character each, while relics teach the common core families.
-- It is visual, which matters for a pixel-art game: a chain of lights across
-  a valley at dusk, and one of them going out.
+**Why it's running out.** Hush that has drunk its fill (**sated** hush)
+stops drinking. Only fresh hush from the ground keeps the world quiet, and
+the veins are thinning: the mines go deeper every year and bring up less.
+So:
 
-Risks, and how to make it ours:
+- The army can't replace its spent arms. The crown calls in old coin to
+  melt down for the armories, so there is less money, and what's left is
+  debased with common metal. Trust in the imperial coin is failing, and the
+  merchant banks' paper notes are taking its place.
+- With less fresh hush in the world, magic comes back, slowly and unevenly.
+  Old charms work again, and some children are born with gifts. The beasts
+  that feed on magic come back too, which is why the roads are dangerous
+  again (and why the world map has encounters).
+- The crown can't pay its soldiers or its debts, and it can't enforce its
+  will where hush-armored soldiers no longer go.
 
-- A barrier that keeps monsters out of towns has been done (Tales of
-  Vesperia's town barriers, Final Fantasy XV's Wall), and a fading flame
-  that marks the end of an age is the heart of Dark Souls. So: no "first
-  flame" to rekindle, and the Lamps are ordinary imperial infrastructure,
-  not a cosmic fire.
-- The twist that makes it ours: the Lamps don't only keep the wild out, they
-  put **people's own magic** to sleep. The golden age was safe because
-  everyone in it was made ordinary. The Lampguard, the keepers of safety,
-  may turn out to be the keepers of a cage, and the soldiers' fear of the
-  future becomes a real moral question.
-- A mystery for later stages, not to decide now: **what do the Lamps
-  burn?** Candidate answers include the magic of the people living in their
-  light, or something bound beneath each tower. Either would recontextualize
-  the golden age.
+Why this works, I think:
 
-**Variant: bells instead of lamps.** The same engine works with great bronze
-bells in towers across the land, rung at every hour by the soldier caste.
-Their note silences wild magic. The pre-imperial age becomes "the age of
-many voices" and the empire imposed one voice; as the bells crack and fall
-silent, each town's own songs, and its own magic, come back. That ties
-magic to the owner's "many towns, each with its own culture" very neatly.
-Lamps are more visual on a map; bells are fresher and more haunting ("the
-morning the bell didn't ring").
+- One material ties all three of the owner's trends to one economy. It is
+  the soldiers' power, the crown's money and the reason magic sleeps, so
+  when it runs out, all three change together.
+- It makes "money drank the magic" literally true, which is the heart of
+  the owner's theme: both the imperial and the merchant order are built on
+  things that make people ordinary.
+- It gives every faction a concrete, self-interested stake in the last of
+  it (see [Factions](#factions)).
 
-### History B: Heirs of a broken empire
+### Where hush comes from
 
-The golden age was one empire that covered the known world. About 250
-years ago its capital was lost in a single night (the **Sundering**), and
-the empire split among three heirs. All three powers are its successors:
-each claims to be the true continuation and uses the same crowns, coins and
-law-tongue, and they have fought wars of succession on and off ever since.
-The old magic was the emperors' secret and vanished with the capital; now
-it is waking, and people whisper that the lost capital is waking too.
-Merchants rise because the three thrones borrow endlessly to outdo each
-other; soldiers fear a peace, or a reunion, that would turn three armies
-into one.
+**Open question**, for a later stage; each answer gives a different secret.
 
-- Strengths: built-in rivalry and politics between the powers; a shared
-  golden age that every power remembers; a lost capital as a late-game
-  destination; "restore the golden age by force" as a villain's dream.
-- Risks: the ancient cataclysm and the lost capital are familiar JRPG
-  furniture, and it doesn't say why magic returns now.
-- It stacks with A: the three powers could be heirs of one lamplit empire.
+- **From the earth.** It formed over ages, drinking magic that seeps up
+  from somewhere deep below. What's down there?
+- **From the sky.** It fell once, as a rain of stars, and there will never
+  be more.
+- **From bones.** It is what's left of vast beings that died long ago, and
+  the priests believe they were gods.
 
-### History C: The mortgaged crown
+### The engines
 
-The golden age was paid for with silver from the mountains and tribute
-from conquered provinces. The mines are worked out and the provinces have
-bought or fought their way to self-rule. To keep paying the army and the
-court, the crown borrowed from the merchant houses, pledging tolls, towns
-and even regiments as security. Today a banking house can own a fortress
-and the soldiers in it. The old magic returns in the villages where the
-imperial church, which suppressed it, can no longer afford its priests.
+The merchants' new power is the **engine**: fire, water and steam. Its fuel
+is **blackspoil**, the black rock that hush miners hauled out and heaped by
+the mine mouths as waste for centuries. Someone in Tallis found that it
+burns hotter than wood and longer than charcoal, and the merchant houses
+bought up the spoil heaps for almost nothing. The old order's waste is the
+new order's fortune.
 
-- Strengths: grounded and political, like late Venice or Habsburg Spain;
-  merchants and soldiers are at the center; lots of intrigue.
-- Risks: magic is incidental. Nothing makes it return now, and it gives
-  the least to the game systems (monsters, map changes, relics).
+- Engines first pumped water out of the deepening hush mines, so the
+  crown's last hush now depends on merchant machines.
+- Then came mills, looms and threshers; next, steamships and rails; and
+  perhaps later the airship that opens the whole world, which fits the
+  FF-style travel progression.
+- Engines don't care about magic either way. Their threat is different:
+  they make people interchangeable. A mill hand is paid by the hour and
+  replaced by the next one. A weaver with twenty years of skill is undersold
+  by a loom any child can mind. That is the owner's "mechanical inhumanity".
+- Paper money from the merchant banks, backed by goods and engines rather
+  than hush, is replacing the failing coin.
 
-## Names for the home empire
+### The priesthood: two versions
 
-**Proposed.** Placeholder names; the naming rules come with the world stage.
+Both have a different relationship to hush than the crown's.
 
-- **Meridane**: from "meridian", noon. The empire named itself for the sun
-  at its height, and now it is evening. Fits A's Long Noon. Claude's pick.
-- **Zylia**: the game's own title. The game would be named for what is
-  dying ("the twilight of Zylia"). Only if the owner has no other plan for
-  the name.
-- **Halcyra**: echoes "halcyon days", the golden age everyone remembers.
+- **The Keepers** (Claude's pick). They believe the magic hush drinks isn't
+  destroyed but held in trust: the world's breath, borrowed. They never
+  burn hush. For six centuries every temple has kept a reliquary of sated
+  hush, and their great house sits on the largest hoard left in the world:
+  six hundred years of the world's magic, unspent. Their doctrine says that
+  one day it must be given back, by them, in a rite. Now that the mines are
+  failing, their hoard is the most valuable thing in the world. The crown
+  wants to melt it for arms, the merchant banks want it to back their
+  notes, and the newly gifted want what's inside it. What the Keepers want
+  is what every faction wants: to be the ones who decide.
+- **The Still.** A faith of silence. They hold that magic was the madness
+  of the old world and that hush brought peace to the soul. Their monks
+  meditate holding hush, to quiet the self. They want hush preserved, never
+  burned, and the world kept quiet forever. To them the returning magic is
+  a plague, and the crown burning hush for war is sacrilege.
 
-## The other powers (sketched for History A)
+Why the Keepers: they are an economic player holding the last great
+reserve, not bystanders. They want magic back, which makes them tempting
+allies for the protagonists, but on their own terms and through their own
+rite, which is its own kind of external power. And their hoard sets up a
+big question for later: what happens if six centuries of magic is released
+at once?
 
-**Proposed.** Each power's order was built on the absence or the control of
-magic, so the same return undoes all of them in a different way.
+### Magic comes back to the poor first
+
+Hush is expensive, so it sits where the money and the soldiers are. Magic
+returns first where there is none: poor villages that never saw much coin,
+played-out mining towns, provinces the crown can't afford to garrison. The
+rich, surrounded by hush coin, hush jewelry and hush-armored guards, feel
+nothing. So the protagonists, the everyday people the owner described, come
+from exactly the places where the new magic is waking, and the powerful are
+the last to understand what is happening.
+
+Imperial law says a person whose gift wakes must wear a **hush band**, which
+drinks their magic as it comes. The merchant houses have a gentler-sounding
+answer: long contracts for gifted workers.
+
+### Relics
+
+To connect with the magic decision
+([#18](https://github.com/abarth/zylia/issues/18)): a **relic** is an old
+piece of hush that drank from one great mage, long ago, and still holds the
+shape of their spells. Being sated, it drinks nothing more, and a person who
+carries it can learn what it holds. So relics are things the crown
+confiscates, the merchants sell, the Keepers enshrine and the protagonists
+need.
+
+### Theme
+
+The owner's theme is the individual against external power, whether force
+or money and machines. A thematic question that could frame it: **"Who do
+you belong to?"**
+
+- The crown: you belong to the crown. You are a subject.
+- The merchant houses: you belong to whoever pays you. You are a pair of
+  hands.
+- The Keepers: you belong to the faith, which holds your magic in trust.
+- The protagonists: to yourself, and to the people you choose.
+
+Magic fits this. Hush is the same in every hand, and a machine does the
+same work whoever runs it, but magic grows out of who a person is (the
+affinity, aptitude and exclusive families of #18), and nobody can buy
+someone else's gift.
+
+**Risk: preaching.** A story that simply says machines are bad will preach,
+and the principles ask the story to argue. The engine side needs a real
+case: engines pump out the flooded shafts that used to drown miners, end
+famines, and free people from lifetimes of service to the hush lords. The
+best antagonists will believe they are setting people free.
+
+### Resemblances, and what's ours
+
+- **Final Fantasy VI**: an empire whose soldiers fight with magic-powered
+  armor, and magic returning after an age without it. Magitek drains magic
+  from living beings; hush drinks it from the world, and runs out.
+- **Final Fantasy VII**: a mystical energy extracted from the earth by a
+  company, opposed by a spiritual group. Here the extraction is the old
+  imperial order, and the merchants' new power is ordinary steam.
+- **"Sacred land over the resource"** (as in Avatar): the Keepers' hoard
+  shouldn't turn into a holy-ground-against-miners story.
+- **What's most ours**: the coin. Money itself drank the world's magic; the
+  crown melts down its own money to arm its soldiers; and magic comes back
+  to the poor first.
+
+## Factions
+
+**Proposed.** Each acts in its own interest.
+
+| Faction | Wants | Fears |
+| --- | --- | --- |
+| The crown and court | To rule as it always has | The day the hush and the money run out together |
+| The soldier caste | Its place, its pay, its honor | Becoming hired guards for merchants, or nothing |
+| The hush lords (old mining nobility) | To dig deeper and keep their titles | Engines they don't own; flooded shafts; miners with gifts |
+| The merchant houses | The crown's debts, cheap spoil, cheap labor, the future | A strong crown; each other |
+| Mill hands and displaced craftsmen | Work and bread | The machines, the houses, the next price cut |
+| The Keepers | To stay the ones who decide what happens to magic | Soldiers at the reliquary door |
+| The gifted | To be left alone, or to become something | The hush band, the twenty-year contract, the rite |
+
+## The powers
+
+**Proposed**, reworked for hush.
+
+### The home empire
+
+The oldest hush empire, with the oldest mines, nearly dry. Name options are
+under [Names](#names).
 
 ### The Ninefold League
 
-Nine free port cities on the southern coast and islands, ruled by a
-council of shipping houses. They bought their charters from the empire
-early in the Dimming, when the crown needed money. Their golden age was
-carrying the empire's trade during the Long Noon.
+Nine port cities on the southern coast and islands, with no hush of their
+own. Without hush they had to invent: they built the first engines, and
+their banks issued the first paper money. They are the future the empire's
+merchants imitate, and the empire's largest creditor. Their ships bring
+engines to Tallis and carry back hush bought at any price. The League isn't
+fading, it's rising, and it wants the empire weak but not dead: you can't
+collect a debt from a corpse. Naming sounds: clipped and hard (Brekk,
+Tessel, Hollin).
 
-- **Fading because** the coastal Lamps, which doubled as lighthouses, are
-  failing, and sea beasts are back in the shipping lanes. Last year one of
-  the nine ports went silent: no ship sent there has come back. The League
-  still calls itself Ninefold and refuses to change the name.
-- **Answer to the returning magic**: put a price on it. They are the
-  biggest buyers of relics and hire gifted sailors to calm storms.
-- **With the empire**: its largest creditor. The League could call in the
-  debt at any time.
-- Naming sounds: clipped and hard (Brekk, Tessel, Hollin).
+(Round 1 had every power fading. With the engines, the League is the one on
+the rise.)
 
-### Aumar, the Listening Kingdom
+### Aumar, the temple kingdom
 
-A kingdom of high valleys beyond the mountains, beyond the reach of the
-Lamps. Magic there never died during the Long Noon, but it was faint, and
-only a few, trained from childhood, could hear it and work it: the
-**Listeners**, who became the ruling priesthood. Their golden age was when
-the Listeners turned back the imperial legions in the mountain passes. The
-Lampguard was founded to face them, so the soldiers' whole identity is
-defined against Aumar.
+The high valleys beyond the mountains: the Keepers' homeland and seat.
+Aumar's mountains hold hush too, but the Keepers never burned theirs, so
+Aumar is poor in coin and rich in the one thing everyone now wants. Six
+centuries ago the Keepers crowned the first emperor, and in return the
+**Concordat** has kept imperial hands off Aumar's hush ever since. The crown
+is broke, and the Concordat is only paper. Naming sounds: long, open vowels
+(Aumar, Saaru, Oolen).
 
-- **Fading because** magic is rising everywhere, and now shepherds can do
-  what Listeners spent their lives learning. The priesthood's authority is
-  cracking. Some Listeners want to gather the returning magic under their
-  control before it spreads (a possible antagonist seed).
-- **With the empire**: a long, exhausted cold peace.
-- Naming sounds: long, open vowels (Aumar, Saaru, Oolen).
+(With the Still instead of the Keepers, Aumar becomes a monastery kingdom of
+silence, and everything else here holds.)
 
-### Optional third: the Unlit
+## Places in the home empire
 
-Not a power yet: the provinces that went dark generations ago, where towns
-like Ashwen (below) are relearning the old ways. If they find a leader, a
-new power is born. It gives "twilight" its second meaning: the empire's
-dusk is someone else's dawn.
-
-## Places in the home empire (sketched for History A)
-
-**Proposed.** The empire runs along one long river, from the mountains
-(Skarrow, and Holdfast guarding the passes to Aumar) down past the capital
-to the sea (Vitrey and Tallis). The dark provinces lie along the forest
-edges to the east (Ashwen). The trade web is designed so that a Lamp going
-out causes a concrete problem somewhere else, which gives the story beats:
-the capital eats Amberlea's grain, Vitrey's furnaces burn charcoal from the
-forest roads, the mint strikes Skarrow's silver, and everyone owes Tallis.
-
-Most of these places also work under histories B and C, with the Lamps
-swapped for whatever that history's golden age was built on.
+**Proposed**, reworked for hush. The empire runs along one long river, from
+the mountains (Skarrow's mines, and Holdfast guarding the passes to Aumar)
+down past the capital to the sea at Tallis. Orison sits in the hills
+between. Ashwen lies at the forest edge to the east, where the hush ran out
+first. The trade web is designed so that one change causes a problem
+somewhere else: the capital eats Amberlea's grain, the Mint strikes
+Skarrow's hush, Skarrow's pumps are Tallis engines, and everyone owes
+Tallis.
 
 ### Vessary, the capital
 
-- **Known for**: the **Crown Lamp** in the Noon Tower, the oldest and
-  brightest, lit six centuries ago and never out since.
+- **Known for**: the **Mint**, whose hammers have struck the empire's coin
+  for six centuries, and whose strongrooms are nearly empty.
 - **Culture**: the city is built in rings, and rank decides how close to
-  the Lamp you may live. Every citizen carries a brass token stamped with
-  their ring. In the inner ring it is against the law to let any light go
-  out at night; nobody born there has ever seen true dark.
-- **Exports**: coin (the imperial mint), law and charters, titles (now
-  sold to merchants), fine lampwork.
-- **Imports**: nearly everything: grain, glass, iron, silver, officers.
+  the palace you may live. Nobles of the inner ring wear hush jewelry as a
+  mark of rank; they have never felt magic and are proud of it. Every child
+  born there gets a hush coin in its cradle, a custom from the days when
+  wild magic could touch a baby.
+- **Exports**: coin (less every year), law and charters, and titles, now
+  sold to merchants. The old nobility sneers at these **paper lords** while
+  borrowing from them.
+- **Imports**: grain, hush, officers, and more and more paper money.
 - **Significance**: the **Long Noon** festival at midsummer, a pageant of
   the golden age that grows more lavish as the treasury grows emptier.
-- **Now**: the court insists nothing has changed. People say the Crown
-  Lamp burns paler than it did; the court says it does not.
+- **Now**: the Mint is quietly melting old coin for the armories. Tallis
+  paper passes from hand to hand in the outer rings; the inner ring still
+  won't touch it. The court insists nothing has changed.
+
+### Skarrow, the hush mines
+
+- **Known for**: the oldest hush mines, and a town that talks with its
+  hands.
+- **Culture**: miners never speak underground, where sound can bring down
+  rock, so they talk in a hand-language, and the whole town uses it above
+  ground too, even at weddings. Before cutting new rock, a miner lays a palm
+  on the stone to "ask the mountain".
+- **Exports**: hush, less every year; and now blackspoil. The waste heaps
+  are worth more than the mines.
+- **Imports**: food, timber for pit props, rope, and engines from Tallis to
+  pump the deepening shafts.
+- **Significance**: the Deep Chapel at the bottom of the oldest shaft,
+  where offerings are left.
+- **Now**: the hush lords dig deeper, and a Tallis house owns the engines
+  that keep the water out. Last year a new shaft broke into a sealed hall
+  from before the empire, full of relics; relics leak out through smugglers
+  to Tallis. And as the veins thin, miners say that when they ask, the
+  mountain answers.
+
+### Holdfast, the soldiers' home
+
+- **Known for**: the academy, and the **Wall of Hilts**.
+- **Culture**: soldier families by inheritance. Children enter the academy
+  at seven. Each family keeps its hush arms as heirlooms, and when a weapon
+  is spent, its hilt is set in the Wall of Hilts with the name of the
+  soldier who spent it.
+- **Exports**: officers, who serve across the empire; hush-smithing, since
+  only Holdfast's smiths can forge it.
+- **Imports**: food, horses, hush from Skarrow, and the crown's pay, which
+  comes later every year.
+- **Significance**: the Wall of Hilts, which grows longer every year because
+  spent arms are no longer replaced.
+- **Now**: families sell their heirloom arms to pay debts. Young officers
+  hire out as guards to merchant houses, to their parents' shame, and some
+  officers talk of the army taking charge. The fear no one says aloud: a
+  soldier's child with a gift, who puts on the family armor and feels it
+  drinking them.
+
+### Tallis, the engine city
+
+- **Known for**: the Exchange, where anything has a price, and the engine
+  works beside it.
+- **Culture**: Tallis bought its freedom from the crown, and its charter
+  hangs in the Exchange with the price written on it; the city is proud of
+  the price. Every agreement, even a marriage, is sealed by splitting a
+  tally stick, and each party keeps half. Life runs by the works whistle.
+- **Exports**: engines, cloth from the steam mills, paper money and credit;
+  relics, sold openly at the Night Market.
+- **Imports**: blackspoil, raw wool, hush bought for resale, and people:
+  farmhands and craftsmen put out of work across the provinces.
+- **Significance**: Charter Day, when the city burns a copy of its old tax
+  rolls.
+- **Now**: the fastest-growing city in the empire, and the crown owes its
+  houses more than it could ever repay. The lower town is packed with mill
+  hands. The richest house has started hiring gifted workers on twenty-year
+  contracts, for work no engine can do yet.
 
 ### Amberlea, the granary
 
@@ -260,117 +396,81 @@ swapped for whatever that history's golden age was built on.
   Children are named at the riverbank and given a river-stone they keep all
   their lives and are buried with.
 - **Exports**: wheat, barley, ale, linen.
-- **Imports**: iron tools, salt, dyes, and the Lampguard's protection.
+- **Imports**: iron tools, salt, dyes.
 - **Significance**: the **Sheaf Procession**: each harvest the first sheaf
-  goes by barge to Vessary and is laid before the Crown Lamp. It is a tax
+  goes by barge to Vessary and is laid before the throne. It is a tax
   dressed as a blessing, and the valley knows it.
 - **Old way**: rain-songs. Grandmothers still sing them in the fields out
-  of habit, and at the valley's edge, where a Lamp has guttered, they have
-  started to work. Imperial law forbids "wild singing"; farmers who sing
-  get rain, and their neighbors report them, or don't.
+  of habit, and on the valley's poor edge, where there was never much hush,
+  they have started to work. Farmers who sing get rain, and their neighbors
+  report them to the hush-band officers, or don't.
+- **Now**: Tallis houses are buying steam threshers and the land to use
+  them on. Farmhands out of work drift downriver to the mills.
 
-### Holdfast, the Lampguard's home
+### Orison, the Keepers' house
 
-- **Known for**: the Lampguard academy, and the Wall of Embers.
-- **Culture**: soldier families by inheritance. Children enter the academy
-  at seven. Every family keeps a watch-book naming each ancestor and the
-  Lamp they kept. When a Lamp dies, the families who kept it hold a funeral:
-  they carry its last ember home and set it in the **Wall of Embers**.
-- **Exports**: officers, who serve across the empire; good steel.
-- **Imports**: food, horses, and the crown's pay, which arrives later
-  every year.
-- **Significance**: the Wall of Embers, which grows longer every year.
-  Holdfast's children learn to count on it.
-- **Now**: young officers sign on as caravan guards for merchant houses, to
-  their parents' shame. Some officers talk of a "relighting": the crown is
-  weak and the army should take charge. And the fear no one says aloud: a
-  Lampguard child born with a gift.
+- **Known for**: the **Reliquary**, the largest store of sated hush inside
+  the empire.
+- **Culture**: a town of pilgrims. Keepers vow never to spend a coin. The
+  custom: pilgrims don't spend their hush coin at Orison, they give it back,
+  dropping it into the Reliquary's well. Every coin given is a coin taken out
+  of the crown's economy for good.
+- **Exports**: blessings, scribes and learning, the pilgrim trade.
+- **Imports**: coin, as offerings; food.
+- **Significance**: the Giving, the yearly festival when pilgrims drop their
+  coins into the well.
+- **Now**: the crown has started "asking" the Reliquary for loans. Pilgrims
+  bring paper now, which the Keepers refuse. People whose gifts have woken
+  come asking the Keepers for help, and the Keepers ask them for their
+  obedience.
 
-### Vitrey, the glassmakers' harbor
+### Ashwen, where the hush ran out
 
-- **Known for**: lamp-glass, the great lenses that focus each Lamp.
-- **Culture**: the Glassmakers' Guild runs the town. Masters swear the
-  Furnace Oath never to leave or to teach an outsider; one who breaks it is
-  "cracked", and their name is scratched off the guild windows. Each house
-  has one window of its own colored glass, read like a coat of arms.
-- **Exports**: glass, lenses, spyglasses, bottles, salt fish.
-- **Imports**: charcoal and potash from the forest, grain.
-- **Significance**: the **Unfinished Eye**, a lens as tall as a house,
-  begun forty years ago for a new Lamp and never finished, because no one
-  has lit a new Lamp in living memory.
-- **Now**: lens orders have collapsed and League ships outnumber imperial
-  ones in the harbor. Its own lighthouse Lamp still burns; sea beasts have
-  been seen just past its reach.
+- **Known for**: its dead mine head, hung with charms.
+- **Culture**: Ashwen's small hush vein ran out thirty years ago. The crown's
+  men left, the coin went with them, and magic came back here first. The
+  village has relearned the old ways from grandmothers' stories. When a
+  child's gift first shows, the village holds a **waking** feast; in the
+  rest of the empire, that child would be put in a hush band.
+- **Exports**: pelts, herbs, and healing: people from richer towns come to
+  Ashwen's healers in secret.
+- **Imports**: salt, iron and cloth, through smugglers.
+- **Significance**: the old workings. Beasts nest in them, and nobody
+  drives them out.
+- **Now**: poorer and more dangerous than the rest of the empire, but its
+  people have something the rest don't. Patrols still come to band gifted
+  children, and Tallis recruiters come with contracts. Ashwen hides its
+  children from both.
 
-### Skarrow, the mines
+## Names
 
-- **Known for**: iron and silver, and a town that talks with its hands.
-- **Culture**: miners never speak underground (sound brings down rock), so
-  they talk in a hand-language, and the whole town uses it above ground
-  too, even at weddings. Before cutting new rock, a miner lays a palm on
-  the stone to "ask the mountain".
-- **Exports**: iron, silver for the mint, and, unofficially, relics.
-- **Imports**: food, timber for pit props, lamp oil, rope.
-- **Significance**: the Deep Chapel at the bottom of the oldest shaft,
-  where offerings are left.
-- **Now**: the silver is thinning and the mint quietly debases the coin.
-  Last year a new shaft broke into a sealed pre-imperial hall full of
-  relics. The Lampguard sealed it again; relics leak out anyway, through
-  smugglers, to Tallis. Miners say that lately, when they ask, the
-  mountain answers.
+**Proposed.** Three names for one metal, one for each point of view:
 
-### Tallis, the bought city
+- Soldiers and miners call it **hush**, for what it does.
+- The crown's name for it could be **zyl**, which would make the empire
+  **Zylia**, "the land of zyl": the game named for the thing that's running
+  out. (Claude's pick for the empire's name, if the owner has no other plan
+  for "Zylia".)
+- The Keepers call it **the Trust**, for what they believe it holds.
 
-- **Known for**: the Exchange, where anything has a price.
-- **Culture**: Tallis bought its freedom from the crown, and its charter
-  hangs in the Exchange with the price written on it; the city is proud of
-  the price. Every agreement, even a marriage, is sealed by splitting a
-  tally stick, and each party keeps half. Matching halves settle any
-  dispute.
-- **Exports**: credit, cloth, dyes, and relics, sold openly at the Night
-  Market.
-- **Imports**: raw goods from everywhere, and labor: refugees from the
-  dark provinces.
-- **Significance**: Charter Day, when the city burns a copy of its old tax
-  rolls.
-- **Now**: the fastest-growing city in the empire, and the crown owes its
-  houses more than it could ever repay. The richest house has bought a
-  dying Lamp and the land around it, and hired Lampguard to keep it: a
-  private Lamp.
+Other empire names from round 1: **Meridane** (named for noon, now in its
+evening) and **Halcyra** (echoing "halcyon days").
 
-### Ashwen, the village that went dark
+## Round 1 (superseded)
 
-- **Known for**: its dead Lamp tower, wrapped in vines and hung with
-  charms. Imperial maps still call the village Farlamp; its people have
-  taken back the old name.
-- **Culture**: its Lamp died thirty years ago and the crown pulled out.
-  The village has relearned the old ways from grandmothers' stories. When a
-  child's gift first shows, the village holds a **waking** feast; in the lit
-  lands, the law says that child must be brought into the light.
-- **Exports**: pelts, beast-hide, herbs, and healing: people from lit towns
-  come to Ashwen's healers in secret.
-- **Imports**: salt, iron and cloth, all through smugglers, since imperial
-  merchants won't come.
-- **Significance**: the old tower. Beasts nest in its upper floors and
-  nobody drives them off.
-- **Now**: poorer and more dangerous than the lit lands, but its people
-  have something the lit lands don't. Lampguard patrols still come for
-  gifted children, and Ashwen hides them. It is the empire's future, or its
-  alternative.
+Round 1 offered three histories for the home empire. **A**: a chain of
+great Lamps silences wild magic and keeps beasts away, and the Lamps are
+failing one by one. **B**: the powers are heirs of one broken golden-age
+empire. **C**: the silver and tribute ran out, and merchant houses own the
+crown's debts. It also sketched two rival powers and seven places. The owner
+kept A's suppression idea and C's economics and dropped the Lamps; round 2
+reworks everything else around hush. The full round 1 text is in commit
+ddb3965.
 
-## Where the theme might come from
+## Questions for the owner (round 2)
 
-**Proposed**, for later in the premise: every order in this world was built
-on the absence or control of magic, and every one is failing. That suggests
-a thematic question like **"When the world that made you is ending, what do
-you keep?"** The Lampguard would hold on, the merchants would sell, the
-Listeners would grab, and Ashwen would let go.
-
-## Questions for the owner (round 1)
-
-1. Which history: **A** (Lamps), **B** (Heirs) or **C** (Mortgaged crown),
-   or a mix?
-2. Lamps or bells?
-3. A name for the home empire: Meridane, Zylia, Halcyra, or something else?
-4. Two rival powers, or three with the Unlit?
-5. Which places grab you, and which feel flat?
+1. Does **hush** (a metal that drinks magic) work as the resource?
+2. Which priesthood: the **Keepers** or the **Still**?
+3. Where hush comes from: the earth, the sky, bones, or leave it for later?
+4. Does **"Who do you belong to?"** capture the theme?
+5. **Zylia**, named for the metal, for the empire?
